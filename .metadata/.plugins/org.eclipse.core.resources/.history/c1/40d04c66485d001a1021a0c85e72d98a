@@ -1,0 +1,12 @@
+package certification.oracle;
+
+class ExceptionClass {
+
+	public static void main(String[] args) {
+		// ArrayList<String> list;
+		int list;
+		if (list != null)
+			System.out.println(i);
+		// list.add("1");
+	}
+}

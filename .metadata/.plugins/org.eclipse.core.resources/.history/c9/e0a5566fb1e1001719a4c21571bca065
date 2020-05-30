@@ -1,0 +1,29 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class handleImage {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+
+		// General Image (No functionality)
+		driver.get("https://www.google.com");
+		System.out.println(driver.findElement(By.id("hplogo")).isDisplayed());// true
+		System.out.println(driver.findElement(By.id("hplogo")).getAttribute("title"));
+//		Thread.sleep(5000);
+
+		// Image Button (Submits)
+		// driver.navigate().to("http://newtours.demoaut.com/");
+		// driver.findElement(By.name("login")).click();
+		//
+		// Thread.sleep(5000);
+		// //
+		// driver.navigate().to("http://www.seleniumhq.org/");
+		// driver.findElement(By.xpath("html/body/div[3]/div[2]/div[2]/table/tbody/tr/td[2]/center/a/img")).click();
+
+	}
+
+}

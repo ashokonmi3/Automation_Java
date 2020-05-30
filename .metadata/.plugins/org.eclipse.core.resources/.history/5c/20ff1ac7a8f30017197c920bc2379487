@@ -1,0 +1,22 @@
+package selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.gargoylesoftware.htmlunit.javascript.host.URL;
+
+public class GridDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		String baseURL = "http://demo.guru99.com/selenium/guru99home/";
+		String nodeURL = "http://localhost:4444/wd/hub";
+		DesiredCapabilities capability = DesiredCapabilities.chrome();
+		driver = new RemoteWebDriver(new URL(nodeURL), capability);
+		driver.get(baseURL);
+
+	}
+
+}

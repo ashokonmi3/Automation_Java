@@ -1,0 +1,113 @@
+package certification.oracle;
+
+//public class ExceptionClass {
+
+//	public static void main(String[] args) {
+//
+//		method1();
+//	}
+//
+//	public static void method1() {
+//		method2();
+//	}
+//
+//	public static void method2() {
+//		String[] students = { "Shreya", "Joseph" };
+//		System.out.println(students[5]);
+//	}
+//
+//}
+//====================
+//
+//class ExceptionClass {
+//	void method1() throws Error {
+//	}
+//
+//	void method2() throws Exception {
+//	}
+//
+//	void method3() throws Throwable {
+//	}
+//
+//	void method4() throws RuntimeException {
+//	}
+//
+//	void method5() throws FileNotFoundException {
+//	}
+//}
+
+//===================
+//class HandleExceptions {
+//	void method6() {
+//		try {
+//		} catch (Error e) {
+//		}
+//	}
+//
+//	void method7() {
+//		try {
+//		} catch (Exception e) {
+//		}
+//	}
+//
+//	void method8() {
+//		try {
+//		} catch (Throwable e) {
+//		}
+//	}
+//
+//	void method9() {
+//		try {
+//		} catch (RuntimeException e) {
+//		}
+//	}
+//
+//	void method10() {
+//		try {
+//		} catch (FileNotFoundException e) {
+//		}
+//
+//	}
+//}
+
+//==============
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+//
+//public class ExceptionClass {
+//	public static void main(String args[]) {
+//		FileInputStream fis = null;
+//		try {
+//			fis = new FileInputStream("file.txt");
+//			System.out.println("File Opened");
+//			fis.read();
+//			System.out.println("Read File ");
+//		} catch (FileNotFoundException fnfe) {
+//			System.out.println("File not found");
+//		} catch (IOException ioe) {
+//			System.out.println("I/O Exception");
+//		} finally {
+//			System.out.println("finally");
+//		}
+//		System.out.println("Next task..");
+//	}
+//}
+
+//===============
+public class ExceptionClass {
+public static void main(String args[]) { FileInputStream fis = null;
+try {
+fis = new FileInputStream("file.txt"); System.out.println("File Opened"); fis.read();
+System.out.println("Read File");
+} finally {
+System.out.println("finally");
+ 
+490	CHAPTER 7 Exception handling
+
+} catch (FileNotFoundException fnfe) { System.out.println("File not found");
+} catch (IOException ioe) { System.out.println("File Closing Exception");
+}
+System.out.println("Next task..");
+}
+}

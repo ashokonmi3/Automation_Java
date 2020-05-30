@@ -1,0 +1,269 @@
+package corejavapackage;
+
+// 1) Arithmetic
+// 2) Assignment operator
+// 3) logical operator
+// 4) Increment decrement
+// 5) Ternary operator
+// 6) Bitwise operator
+// Assignment operator
+//
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int a = 10;
+//		System.out.println(a);// 20
+//		a = a + 10;
+//		System.out.println(a);// 20
+//		a += 10;// a=a+10
+//		System.out.println(a);// 20
+//		a -= 10;// a=a-10
+//		System.out.println(a);// 0
+//		a *= 5;// a=a*5
+//		System.out.println(a);// 50
+//	}
+//}
+// ctrl+/
+// =================================
+/*
+ * Arithmetic Operators Arithmetic Operators return value based Result.
+ * 
+ * 1) Addition + (for Addition and String concatenation)
+ * 
+ * 2) Subtraction - (for Subtraction and negation)
+ * 
+ * 3) Multiplication *
+ * 
+ * 4) Division /
+ * 
+ * 5) Modules %
+ * 
+ * 6) Increment ++
+ */
+// Plus operator +
+// ========================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int a = 10, b = 5;
+//		String c = "Selenium", d = " Testing";
+//		System.out.println(a + b); // Addition of a, b
+//		System.out.println(c + d); //
+//		System.out.println(a - b);
+//		System.out.println(a * b);
+//		System.out.println(a / b);
+//		System.out.println(a % b);
+//		System.out.println(5 % 3);// modulus reminder of division
+//		System.out.println(10 % 3);
+//		System.out.println(17 % 3);
+//		System.out.println(3 % 17);
+//		System.out.println(133 % 1000);
+//		System.out.println(123 % 1000);
+//	}
+//}
+
+// ===============================================
+// Increment
+// int a =10
+// ++a- preinclrement
+// a++ - post increment
+//
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int a = 22;
+//		System.out.println(a);
+//
+//		System.out.println(++a);// increment first and print later
+//		System.out.println(a);
+//	}
+//}
+
+// ===================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int a = 22;
+//		System.out.println(a++);// printing first increment later
+//		System.out.println(a);
+//	}
+//}
+
+// ===================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = ++b;// increment first and assign later
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
+// ========================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = b++;// post increment-- assign first increment later
+//		// a=0;
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
+// =======================
+////
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = --b;// pre decrement increment first assign after that
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
+// ========================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = b--;// post decrement -- assign first and decrement later
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
+// ======================
+//// ---------------------------------------------
+// Relational operators return boolean or logical result (true or false)
+
+// 1) ==
+//
+// 2) !=
+//
+// 3) >
+//
+// 4) >=
+//
+// 5) <
+//
+// 6) <=
+// ===================================
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		int a = 20, b = 10;
+//		int c = 20;
+//		System.out.println("a > b is " + (a > b));// if a is greater than b- True
+//		System.out.println("a >= c is " + (a >= c)); // if a is greater than or equal
+//		// to c- true
+//		System.out.println("a < b is " + (a < b));//
+//		System.out.println("a <= b is " + (a <= b));
+//		System.out.println("a == b is " + (a == b));
+//		System.out.println("a != b is " + (a != b));
+//	}
+//}
+// ===============================================================
+// Logical operator
+// 1) Logical Not operator !
+//
+// 2) Logical And Operator &&
+//
+// 3) Logical Or operator ||
+// --------------------------------
+// Result Criteria for Not operator
+// Operand 1 Operand 2 Result
+// ----------------------------------------
+// true true false
+// true false true
+// false true true
+// false false true
+// -----------------------------------------
+// Result Criteria for And operator
+// Operand 1 Operand 2 Result
+// ----------------------------------------
+// true true true
+// true false false
+// false true false
+// false false false
+// -----------------------------------------
+// Result Criteria for Or operator
+// Operand 1 Operand 2 Result
+// ----------------------------------------
+// true true true
+// true false true
+// false true true
+// false false false
+// -----------------------------------------
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = false;
+//		System.out.println((a && b));// and operator all should be true
+//		System.out.println((a || b));// or operator one condition is true the result is true
+//	}
+//}
+// ======================
+////
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = true;
+//		System.out.println((a && b));
+//		System.out.println((a || b));
+//	}
+//}
+//// =======================
+//
+//public class O2_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = true, c = true;
+//		System.out.println((a && b && c));
+//		System.out.println((a || b || c));
+//	}
+//}
+////// ==================
+ public class O2_Operators {
+ public static void main(String[] args) {
+ int a = 100, b = 500, c = 700;
+ System.out.println((a > b) && (a > c));
+ System.out.println((a < b) || (a > c));// false||false
+ }
+ }
+
+// =================================
+// public class O2_Operators {
+// public static void main(String[] args) {
+// char grade = 'X';
+// int a = 10;
+// System.out.println(grade == 'A');
+// System.out.println(a == 10);
+// System.out.println(a == 11);
+// System.out.println(grade == 'X');
+// }
+// }
+
+// ====================================
+// Ternary operator
+////
+// public class O2_Operators {
+// public static void main(String[] args) {
+// int num1, num2;
+// num1 = 1500;
+// num2 = (num1 == 500) ? 100 : 200;
+// System.out.println(num2);
+// //
+// System.out.println((num1 == 100) ? 100 : 200);
+// // //
+// System.out.println((num1 > 1500) ? 100 : 400);
+//
+// }
+// }
+// ====================
+// public class O2_Operators {
+// public static void main(String[] args) {
+// int num1, num2;
+// num1 = 500;
+// num2 = (num1 == 500) ? 100 : 200;
+// System.out.println(num2);
+// System.out.println((num1 == 100) ? 100 : 200);
+// System.out.println((num1 > 1500) ? 100 : 400);
+//
+// }
+// }
+
+// ============================
+/// * Assignment
+// 1. Write a Java program to print the sum of two numbers and 2 strings.
+// 2. Take 2 number as input and perform all arithmetic operation on that

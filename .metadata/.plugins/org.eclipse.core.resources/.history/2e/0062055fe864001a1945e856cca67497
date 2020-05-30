@@ -1,0 +1,22 @@
+package certification.oracle;
+
+//public class Java_04_API_ARRAYS {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		String morning1 = "Morning";
+//		System.out.println("Morning" == morning1);
+//		String morning2 = new String("Morning");
+//		System.out.println("Morning" == morning2);
+//	}
+//
+//}
+//==============
+public class Java_04_API_ARRAYS {
+	//
+	public static void main(String[] args) {
+		String girl = new String("Shreya");
+		char[] name = new char[] { 'P', 'a', 'u', 'l' };
+		String boy = new String(name);
+	}
+}

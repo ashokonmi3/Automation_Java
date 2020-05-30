@@ -1,0 +1,131 @@
+package selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+//public class OO005handleImage {
+//
+//	public static void main(String[] args) throws InterruptedException {
+//		WebDriver driver = new ChromeDriver();
+//		// // General Image (No functionality)
+//		driver.get("https://www.google.com");
+//		System.out.println(driver.findElement(By.xpath("//img[@id='hplogo']")).isDisplayed());//
+//		// true
+//		Thread.sleep(3000);
+//		WebElement element1 = driver.findElement(By.xpath("//img[@id='hplogo']"));//
+//		// true
+//		Thread.sleep(3000);
+//
+//		element1.click();
+//		// System.out.println(element1.getAttribute("width"));
+//		// System.out.println(element1.getAttribute("src"));
+//		// System.out.println(element1.getAttribute("max-width"));
+//		// String src = element1.getAttribute("src");
+//		// System.out.println(src);
+//
+//		Thread.sleep(3000);
+//
+//		driver.quit();
+//
+//	}
+//}
+
+// ================
+// public class OO005handleImage {
+//
+// public static void main(String[] args) throws InterruptedException {
+// WebDriver driver = new ChromeDriver();
+// // Image Button (Submits)
+// driver.get("http://newtours.demoaut.com/");
+// Thread.sleep(3000);
+// WebElement element1 = driver.findElement(By.name("login"));
+// String src = element1.getAttribute("src");
+// System.out.println(src);
+// Thread.sleep(3000);
+// element1.click();
+// Thread.sleep(3000);
+// driver.quit();
+//
+// }
+//
+// }
+// =====================
+// public class OO005handleImage {
+// public static void main(String[] args) throws InterruptedException {
+// // // image as a link
+// WebDriver driver = new ChromeDriver();
+//
+// driver.navigate().to("http://www.seleniumhq.org/");
+// Thread.sleep(3000);
+// //
+// driver.findElement(By.xpath("html/body/div[3]/div[2]/div[2]/table/tbody/tr/td[2]/center/a/img")).click();
+// Thread.sleep(5000);
+//
+// driver.quit();
+// //
+// }
+// //
+// }
+// ====================
+
+public class OO005handleImage {
+
+	public static void main(String[] args) throws InterruptedException {
+		String baseUrl = "https://www.rediff.com/";
+		WebDriver driver = new ChromeDriver();
+
+		driver.get(baseUrl);
+		List<WebElement> linkElements = driver.findElements(By.tagName("img"));
+		// String[] linkTexts = new String[linkElements.size()];
+		// int i = 0;
+		int i = linkElements.size();
+		System.out.println(i);
+
+		// extract the link texts of each link element
+		// for (WebElement e : linkElements) {
+		// linkTexts[i] = e.getText();
+		// i++;
+		// }
+		int j = 0;
+		// // test each link
+		for (WebElement t : linkElements) {
+			Thread.sleep(5000);
+			String src = t.getAttribute("src");
+			System.out.println(src);
+
+			// System.out.println(t);
+			Thread.sleep(5000);
+			//
+			if (src.length() < 1) {
+				System.out.println("passing");
+				t.click();
+				Thread.sleep(5000);
+				driver.get(baseUrl)
+
+			} else {
+//				t.click();
+//				Thread.sleep(5000);
+//				driver.get(baseUrl);
+				System.out.println("passing");
+
+			}
+			//
+			// System.out.println(t);
+			//
+			// // driver.findElement(By.linkText(t)).click();
+			// // Thread.sleep(2000);
+			// if (j != 0) {
+			// driver.navigate().back();
+			// System.out.println("navigating back");
+			//
+			// }
+			// // System.out.println("navigating back");
+//			j++;
+		}
+		driver.quit();
+	}
+}

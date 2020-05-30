@@ -1,0 +1,45 @@
+package corejavapackage;
+
+//public class Debug {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		int a = 10;
+//		int b = 20;
+//		int arr1[] = { 12, 344, 56 };
+//		System.out.println("Hello world");
+//		System.out.println("Hello java");
+//		System.out.println("Hello java1");
+//
+//	}
+//
+//}
+
+public class Debug {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		int b = 20;
+		System.out.println("Hello world");
+		add(a, b);
+		System.out.println("Hello java");
+		System.out.println("Hello java1");
+
+	}
+
+	static void add(int c, int d) {
+		int result = c + d;
+		System.out.println("result is " + result);
+	}
+
+}
+
+// Break Point-- by double clicking or right click on line and toggle debug
+// Execution will stop at break point
+// Need to run as debug as java application
+// switch to debug prospective
+// F8 to continue
+// F5 step in
+// F6 step out
+///watch variable right click , value can be passed to function to test

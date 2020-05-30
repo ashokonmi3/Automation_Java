@@ -1,0 +1,10 @@
+package certification.oracle;
+
+public class Java_04_API_ARRAYS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

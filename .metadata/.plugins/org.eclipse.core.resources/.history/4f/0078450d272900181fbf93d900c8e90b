@@ -1,0 +1,49 @@
+package corejavapackage;
+
+public class O1_Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// int a = 100; // Initialization
+
+		int a;
+//		a = 10; // Initialization
+//		System.out.println(a);
+
+		//
+		 a = 10;
+		// int b;
+		 a = a + 10;
+		//
+		 b = a;
+		 System.out.println(b);
+		 System.out.println(a);
+		//
+
+		// // Declaration of multiple variables in a statement
+		// int b, c, d;
+		// b = 20;
+		// c = 30;
+		// d = 40;
+		// // // // // // Declaration of multiple variable and Assigning values.
+		// int e = 50, f = 60, g = 70;
+		// char x = 'A';
+		// double y = 2.90909;
+		// // double a = 7;
+		// String z = "Selenium123";
+		// String z1 = " java";
+		// // // //
+		// System.out.println(a);
+		// System.out.println(b);
+		// System.out.println(c);
+		// System.out.println(d);
+		// System.out.println(e);
+		// System.out.println(f);
+		// System.out.println(g);
+		// System.out.println(x);
+		// System.out.println(y);
+
+	}
+
+}

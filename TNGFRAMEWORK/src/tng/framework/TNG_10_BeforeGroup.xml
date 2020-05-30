@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" >
+  <test name="Test">
+  <groups>
+  <run>
+     <include name = "real" />
+         <include name = "dummy" />
+    
+  </run>
+  </groups>
+    <classes>
+      <class name="tng.framework.TNG_10_BeforeGroup"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

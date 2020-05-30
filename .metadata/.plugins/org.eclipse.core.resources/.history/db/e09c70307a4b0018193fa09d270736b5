@@ -1,0 +1,304 @@
+package corejavapackage;
+
+//public class O5JavaStrings {
+//	// // // //
+//	public static void main(String[] args) {
+//		//
+//		// // String creation
+//		// String myTool = "Selenium"; // String Variable
+//		// String str1 = new String("java selenium");
+//		// System.out.println(myTool);// Selenium
+//		// System.out.println(str1);// Selenium
+//		System.out.println("Hello Selenium"); // Hello Selenium is a String
+//		System.out.println("123 Hello Selenium");
+//		System.out.println("123");
+//		System.out.println("123*456 Hello $$$$ Selenium");
+//		String str1 = "Selenium ";
+//		String str2 = "Testing";
+//		System.out.println(str1 + str2);// Selenium Testing
+//
+//		// // // int a =10;
+//		// // immutable data
+//	}
+//}
+
+// ======================================
+//public class O5JavaStrings {
+//	// // //
+//	public static void main(String[] args) {
+//
+//		// System.out.println("Selenium" + 1 + 1);
+//		// System.out.println(1 + 1 + "Selenium");
+//		// System.out.println("1" + 1 + "Selenium");
+//		// System.out.println(1 + 1 + "Selenium" + 1 + 1);
+//		// System.out.println(1 + "1" + "Selenium" + "java");
+//		System.out.println("Selenium" + (1 + 1));
+//
+//	}
+//}
+
+// // ====================================================
+
+// small letter>capital letter
+// String Comparision
+//public class O5JavaStrings {
+//	// // //
+//	public static void main(String[] args) {
+//
+//		String str1 = "ashok";
+//		String str2 = "SELENIUM";
+//		String str3 = "SELENIUM";
+//		String str4 = "zselenium";
+//		// // String Comparison using == Operator
+//		System.out.println(str1 == str2);//
+//		System.out.println(str2 == str3);//
+//		//
+//		// String Comparison using equals() method
+//		System.out.println(str1.equals(str2));// false
+//		System.out.println(str2.equals(str3));// true
+//		// String Comparison using compareTo() method
+//		System.out.println(str1.compareTo(str2));// Greater than 0
+//		System.out.println(str2.compareTo(str3));// 0
+//		System.out.println(str1.compareTo(str4));// Less than 0
+//	}
+//}
+// =============================================================
+// String str1 = "Selenium";
+//
+// S e l e n i u m
+// 0 1 2 3 4 5 6 7
+
+public class O5JavaStrings {
+	// //// // //
+	public static void main(String[] args) {
+		//
+		String str1 = "abcdfg@gmail.com";
+		// //
+		// System.out.println(str1.length());// 8 (finding length of the String)
+		// //
+		System.out.println(str1.contains("len"));// true (finding sub string)
+		System.out.println(str1.contains("gmail"));// false (finding sub string)
+		// // //
+		// // // Returning Sub Strings
+		// // substring(staring index, ending index)
+		// // it will print starting index to ending index-1
+		// // String str1 = "abcdfg@gmail.com";
+		// String str2 = "abcdfg@gmail.com";
+		// // //
+		// System.out.println(str1.substring(0, 4)); // gmail
+		// System.out.println(str1.substring(0, 8)); // gmail
+		// System.out.println(str1.substring(3, 8)); // gmail
+		// //
+		// System.out.println(str2.substring(0)); //
+		// System.out.println(str2.substring(9)); // gmail.com
+		// System.out.println(str2.substring(14)); // com
+	}
+}
+// =============================================================
+// charAt Method (character by position)
+// public class O5JavaStrings {
+// // //// // //
+// public static void main(String[] args) {
+// //
+// String str1 = "SELENIUM";
+// char result = str1.charAt(4);
+// System.out.println(result); // S
+// // // -------------------------
+// // 3) concat Method (String concatenation)
+// //
+// String str1 = "Selenium";
+// String str2 = " Java";
+// str1 = str1.concat(str2);
+// System.out.println(str1);
+// //
+// }
+// }
+
+// -----------------------------
+// 5) equalsIgnorecase Method
+//
+// public class O5JavaStrings {
+// // //// // //
+// public static void main(String[] args) {
+// //
+// // // Examples:
+// String str1 = "selenium";
+// String str2 = "UFT";
+// String str3 = "SELENIUM";
+// String str4 = "SELENIUM";
+// // // // // // // //
+// System.out.println(str3.equalsIgnoreCase(str4)); // true
+// System.out.println(str1.equalsIgnoreCase(str3)); // true
+// System.out.println(str1.equalsIgnoreCase(str2)); // false
+//
+// }
+// }
+// // -----------------------------------------------
+// 6) toUppercase Method (Converts values To Upper case)
+//
+// Example:
+//
+// public class O5JavaStrings {
+// // // //// // //
+// public static void main(String[] args) {
+// //
+// String str1 = "selenium";
+// String str2 = "SELEnium";
+// String str3 = "SELENIUM";
+// // // // //
+// System.out.println(str1.toUpperCase());
+// System.out.println(str2.toUpperCase());
+// System.out.println(str3.toUpperCase());
+// // // // -------------------------------------
+// // 7) toLowercase Method (Converts values To Lower case)
+// //
+// // String str1 = "selenium";
+// // String str2 = "SELEnium";
+// // String str3 = "SELENIUM";
+// //
+// System.out.println(str1.toLowerCase()); // selenium
+// System.out.println(str2.toLowerCase()); // selenium
+// System.out.println(str3.toLowerCase()); // selenium
+//
+// }
+// }
+// ---------------------------------------------
+
+// 8) trim Method (removes spaces from both sides of a String)
+//
+// Example:
+// // // //
+// public class O5JavaStrings {
+// // // //// // //
+// public static void main(String[] args) {
+// //
+// String str1 = " Selenium java ";
+// String str2 = " SELEnium";
+// String str3 = "SELENIUM ";
+// // // // // // // //
+// System.out.println(str1);
+// System.out.println(str1.trim());
+// System.out.println(str2.trim());
+// System.out.println(str3.trim());
+// //
+// }
+// }
+// ---------------------------------------------
+// ------------------------------------------------
+// 10) endsWith Method (ends with specified suffix)
+//
+// Example:
+// public class O5JavaStrings {
+// // //// //// // //
+// public static void main(String[] args) {
+// //
+// // // -----------
+// String str1 = "Selenium Testing";
+// // // // // //
+// System.out.println(str1.endsWith("Testing"));// true
+// System.out.println(str1.endsWith("ing"));// true
+// System.out.println(str1.endsWith("Selenium"));// false
+// // // // --------------------------------------------------
+// //
+// }
+// //
+// }
+//
+// public class O5JavaStrings {
+// // //
+// public static void main(String[] args) {
+// // //
+// String s1 = "java";
+// // s1.append("abc");="a
+// // // s1[0]="a";
+// s1 = "Selenium";
+// System.out.println(s1);// true
+// StringBuilder s2 = new StringBuilder("java");
+// s2.append("selenium");
+// System.out.println("StringBuilder: " + s2);
+// StringBuffer s3 = new StringBuffer("java");
+// s3.append("selenium");
+// System.out.println("StringBuffer: " + s3);
+// }
+// }
+// // If a string is going to remain constant throughout the program, then use
+// String class object because a
+// String object is immutable.
+// If a string can change (example: lots of logic and operations in the
+// construction of the string)
+// and will only be accessed from a single thread, using a StringBuilder is good
+// enough.
+// If a string can change, and will be accessed from multiple threads, use a
+// StringBuffer because
+// StringBuffer is synchronous so you have thread-safety.
+// helloworld
+/*
+ * Assignements 1)Write a Java program to get the character at the given index
+ * within the String. 2.Write a Java program to get the character (Unicode code
+ * point) at the given index within the String. 3) Write a java program to count
+ * a number of Unicode code points in the specified text range of a String.
+ * 4)Write a java program to compare two strings lexicographically. 5) Write a
+ * Java program to concatenate a given string to the end of another string. 6)
+ * Write a Java program to test if a given string contains the specified
+ * sequence of char values. 7) Write a java program to get the length of a given
+ * string. 8)Write a Java program to convert all the characters in a string to
+ * lowercase. 9) Write a Java program to convert all the characters in a string
+ * to uppercase 10) Write a program to reverse a string
+ */
+
+// public class O5JavaStrings {
+// public static void main(String args[]) {
+//
+// String str = "javaprogram";
+// int cnt = 0;
+// char[] inp = str.toCharArray();
+// System.out.println("Duplicate Characters are:");
+// for (int i = 0; i < str.length(); i++) {
+// for (int j = i + 1; j < str.length(); j++) {
+// if (inp[i] == inp[j]) {
+// System.out.println(inp[j]);
+// cnt++;
+// break;
+// }
+// }
+// }
+// }
+// }
+
+// class NoOfOccurenceOfCharacters {
+// static final int MAX_CHAR = 256;
+//
+// static void getOccuringChar(String str) {
+// // Create an array of size 256 i.e. ASCII_SIZE
+// int count[] = new int[MAX_CHAR];
+//
+// int len = str.length();
+//
+// // Initialize count array index
+// for (int i = 0; i < len; i++)
+// count[str.charAt(i)]++;
+//
+// // Create an array of given String size
+// char ch[] = new char[str.length()];
+// for (int i = 0; i < len; i++) {
+// ch[i] = str.charAt(i);
+// int find = 0;
+// for (int j = 0; j <= i; j++) {
+//
+// // If any matches found
+// if (str.charAt(i) == ch[j])
+// find++;
+// }
+//
+// if (find == 1)
+// System.out.println("Number of Occurrence of " + str.charAt(i) + " is:" +
+// count[str.charAt(i)]);
+// }
+// }
+//
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// String str = "geeksforgeeks";
+// getOccuringChar(str);
+// }
+// }

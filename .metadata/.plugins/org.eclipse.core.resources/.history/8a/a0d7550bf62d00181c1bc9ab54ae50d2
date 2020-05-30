@@ -1,0 +1,155 @@
+package corejavapackage;
+
+//public class O3_IF_Else {
+//	// //
+//	public static void main(String[] args) {
+//		// // // 1) Executing a block of statements when condition is true.
+//		int a, b;
+//		a = 100;
+//		b = 200;
+//		// //
+//		if (a == b) {
+//			System.out.println("A is a Big Number");
+//		}
+//		//
+//		System.out.println("After if");
+//		//
+//	}
+//}
+// =================================
+// // 2) Executing a block of statements when compound condition is true
+
+//public class O3_IF_Else {
+//
+//	public static void main(String[] args) {
+//
+//		int a, b, c = 2;
+//		a = 10;
+//		b = 15;
+//
+//		if ((a > b) && (a > c)) {
+//			System.out.println("A is a Big Nuber");
+//		}
+//	}
+//}
+
+// ====================================
+// 3) Executing a block of statements when condition is true. otherwise
+// executing another block of statements
+//public class O3_IF_Else {
+//	//
+//	public static void main(String[] args) {
+//
+//		int a, b;
+//		a = 100;
+//		b = 50;
+//
+//		if (a > b) {
+//			System.out.println("A is a Big Number");
+//		} else {
+//			System.out.println("B is a Big Number");
+//		}
+//
+//		System.out.println("I am after the if else");
+//	}
+//}
+// =================================
+// 4) Decide among several Alternates (else if structure)
+
+//public class O3_IF_Else {
+//	//
+//	public static void main(String[] args) {
+//
+//		int a = 50;
+//		//
+//		if ((a >= 1) && (a < 100)) {
+//			System.out.println("A is a Small Number");
+//		} else if ((a > 100) && (a <= 1000)) {
+//			System.out.println("A is a Medium Number");
+//		} else if (a > 1000) {
+//			System.out.println("A is a Big Number");
+//		} else {
+//			System.out.println("A is either Zero or negative value");
+//		}
+//	}
+//}
+// ===============================================
+// 5) Executing a block of statements when more than one condition is true
+// (Nested if).
+
+//public class O3_IF_Else {
+//	//
+//	public static void main(String[] args) {
+//		//
+//		int a = 10, b = 17, c = 5, d = 3;
+//		// //
+//		if (a > b) {
+//		}
+//		if (a > c) {
+//		}
+//		if (a > d) {
+//			System.out.println("A is a Big Number");
+//		} else {
+//			System.out.println("A is Not a Big Number");
+//		}
+//		//
+//	}
+//}
+// ============================================
+// 6) Decide among several alternates (using Switch case structure).
+// char grade = 'D';
+////
+// long startTime = System.nanoTime();
+// .....your program....
+// long endTime = System.currentTimeMillis();
+// long totalTime = endTime - startTime;
+// System.out.println(totalTime);
+//
+ public class O3_IF_Else {
+ //
+ public static void main(String[] args) {
+
+ // int a = 10;
+ // int a = 'C';
+
+ int a = 1000;
+
+ switch (a) {
+ //
+ case 10:
+ System.out.println("Excellent");
+ break;
+ case 40:
+ System.out.println("Well Done");
+ break;
+ //
+ case 'C':
+ System.out.println("Better");
+ break;
+ default:
+ System.out.println("Invalid Grade");
+ }
+ }
+ }
+
+// =====================================//
+// public class O3_IF_Else {
+// // //
+// public static void main(String[] args) {
+// // int x;
+// // x = 4;
+// char grade = 'A';
+// // //
+// if (grade == 'A') {
+// System.out.println("Excellent");
+// } else if (grade == 'B') {
+// System.out.println("well done");
+// } else if (grade == 'C') {
+// System.out.println("better");
+// } else {
+// System.out.println("invalid grade");
+// }
+// }
+
+// }
+//

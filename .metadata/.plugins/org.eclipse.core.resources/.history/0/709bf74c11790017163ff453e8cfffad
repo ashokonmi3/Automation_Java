@@ -1,0 +1,27 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class radioButton {
+
+	public static void main(String[] args) throws InterruptedException {
+//		System.setProperty("webdriver.gecko.driver","G:\\Saftwares BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sweta\\Desktop\\Manual Testing\\Download\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("http://www.gcrit.com/build3/create_account.php?osCsid=47gtsrhe41613u5r3eqhgdbas7");
+		WebElement maleradioButton = driver.findElement(By.xpath("html/body/div[1]/div[3]/form/div/div[2]/table/tbody/tr[1]/td[2]/input[1]"));
+		System.out.println(maleradioButton.isDisplayed());
+		System.out.println(maleradioButton.isSelected());
+		System.out.println(maleradioButton.isEnabled());
+		WebElement femaleradioButton = driver.findElement(By.xpath("html/body/div[1]/div[3]/form/div/div[2]/table/tbody/tr[1]/td[2]/input[1]"));
+Thread.sleep(5000);
+		maleradioButton.click();
+		System.out.println(maleradioButton.isSelected());
+		
+	}
+
+}

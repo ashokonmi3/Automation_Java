@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Calculator.java&apos; to &apos;Fitnesee/src&apos;&#x0D;&#x0A;- Original project: &apos;Fitnesee&apos;&#x0D;&#x0A;- Destination element: &apos;Fitnesee/src&apos;&#x0D;&#x0A;- Original element: &apos;com.fitnese.Calculator.java&apos;" description="Copy compilation unit" destination="/src" element1="/src&lt;com.fitnese{Calculator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500133323392" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,197 @@
+package certification.oracle;
+
+// ===============
+// public class ExceptionClass {
+// public static void main(String args[]) {
+// FileInputStream fis = null;
+// try {
+// fis = new FileInputStream("file.txt");
+// System.out.println("File Opened");
+// fis.read();
+// System.out.println("Read File");
+// }
+// finally {
+//
+// System.out.println("finally");
+//
+//
+// } catch (FileNotFoundException fnfe){
+// System.out.println("File not found");
+// }
+// catch (IOException ioe) {
+// System.out.println("File Closing Exception");
+// }
+// System.out.println("Next task..");
+// }
+// }
+// =========================
+
+// class FallInRiverException extends Exception {
+// }
+//
+// class RiverRafting {
+//
+// void crossRapid(int degree) throws FallInRiverException {
+// System.out.println("Cross Rapid");
+// if (degree > 10)
+// throw new FallInRiverException();
+// }
+// }
+//
+// class ExceptionClass {
+// public static void main(String args[]) {
+// RiverRafting riverRafting = new RiverRafting();
+// riverRafting.crossRapid(9);
+// }
+// }
+// main is not throwing any exception or neither handling
+// ==================
+// class FallInRiverException extends Exception {
+// }
+//
+// class RiverRafting {
+//
+// void crossRapid(int degree) throws FallInRiverException {
+// System.out.println("Cross Rapid");
+// if (degree > 10)
+// throw new FallInRiverException();
+// }
+// }
+//
+// class ExceptionClass {
+// public static void main(String args[]) {
+// RiverRafting riverRafting = new RiverRafting();
+// try {
+// riverRafting.crossRapid(9);
+// } catch (FallInRiverException e) {
+// System.out.println("Exception : " + e);
+// }
+// }
+// }
+//
+// class Declare {
+// public static void main(String args[]) throws FallInRiverException {
+// RiverRafting riverRafting = new RiverRafting();
+// riverRafting.crossRapid(9);
+// }
+// }
+//
+// class HandleAndDeclare {
+// public static void main(String args[]) throws FallInRiverException {
+// RiverRafting riverRafting = new RiverRafting();
+// try {
+// riverRafting.crossRapid(9);
+// } catch (FallInRiverException e) {
+// System.out.println("Exception : " + e);
+// }
+// }
+// }
+// ===============
+// import java.io.FileInputStream;
+// import java.io.FileNotFoundException;
+//
+// public class ExceptionClass {
+// public static void main(String args[]) {
+// openFile();
+// System.out.println("after the exception");
+//
+// }
+//
+// private static void openFile() {
+// FileInputStream fis = null;
+// try {
+// fis = new FileInputStream("file.txt");
+//
+// // The return statement does not return the control to
+// // the main method before execution of thefinally block
+// // completes.
+//
+// } catch (FileNotFoundException fnfe) {
+// System.out.println("file not found");
+// return;
+// } finally {
+// System.out.println("finally");
+// }
+// System.out.println("Next task..");
+//
+// }
+// }
+// ==============
+// If both the catch and finally blocks define return statements,
+// the calling method will receive a value from the finally block.
+
+// class ExceptionClass {
+// int getInt() {
+// try {
+// String[] students = { "Harry", "Paul" };
+// System.out.println(students[5]);
+// } catch (Exception e) {
+//
+// return 10;
+// } finally {
+// return 20;
+// }
+// }
+//
+// public static void main(String args[]) {
+// ExceptionClass var = new ExceptionClass();
+// System.out.println(var.getInt());
+// }
+// }
+// ================
+
+// class ExceptionClass {
+// int getInt() {
+// int returnVal = 10;
+// try {
+// String[] students = { "Harry", "Paul" };
+// System.out.println(students[5]);
+// } catch (Exception e) {
+//
+// System.out.println("About to return :" + returnVal);
+// return returnVal;
+// } finally {
+// returnVal += 10;
+// System.out.println("Return value is now :" + returnVal);
+//
+// }
+// return returnVal;
+// }
+//
+// public static void main(String args[]) {
+// ExceptionClass var = new ExceptionClass();
+// System.out.println("In Main:" + var.getInt());
+//
+// }
+// }
+// ===============
+
+// If a catch block returns a primitive data
+// type, the finally block can’t modify thea value being returned by it. If a
+// catch block returns an object,
+// the finally block can modify the state of the object being returned by it.
+///
+/// class ExceptionClass {
+// StringBuilder getStringBuilder() {
+// StringBuilder returnVal = new StringBuilder("10");
+// try {
+//
+// String[] students = { "Harry", "Paul" };
+// System.out.println(students[5]);
+// } catch (Exception e) {
+//
+// System.out.println("About to return :" + returnVal);
+// return returnVal;
+// } finally {
+// returnVal.append("10");
+// System.out.println("Return value is now :" + returnVal);
+// }
+// return returnVal;
+// }
+//
+// public static void main(String args[]) {
+// ExceptionClass var = new ExceptionClass();
+// System.out.println("In Main:" + var.getStringBuilder());
+//
+// }
+// }

@@ -1,0 +1,203 @@
+package corejavapackage;
+
+//class Overload {
+//	void test() {
+//		System.out.println("No parameters");
+//	}
+//
+//	// Overload test for one integer parameter.
+//	void test(int a) {
+//		System.out.println("a: " + a);
+//	}
+//
+//	// Overload test for two integer parameters.
+//	void test(int a, int b) {
+//		System.out.println("a and b: " + a + " " + b);
+//	}
+//
+//	// Overload test for a double parameter
+//	double test(double a) {
+//		System.out.println("double a: " + a);
+//		return a * a;
+//	}
+//}
+//
+//class OverloadDemo {
+//	public static void main(String[] args) {
+//		Overload ob = new Overload();
+//		double result;
+//		// call all versions of test()
+//		ob.test();
+//		ob.test(10);
+//		ob.test(10, 20);
+//		result = ob.test(123.25);
+//		System.out.println("Result of ob.test(123.25): " + result);
+//	}
+//}
+// ==============================================
+
+/*
+ * OverloadDemo does not define test(int). Therefore, when test( ) is called
+ * with an integer argument inside Overload, no matching method is found.
+ * However, Java can automatically convert an integer into a double, and this
+ * conversion can be used to resolve the call. Therefore, after test(int) is not
+ * found, Java elevates i to double and then calls test(double). Of course, if
+ * test(int) had been defined, it would have been called instead. Java will
+ * employ its automatic type conversions only if no exact match is found.
+ */
+
+// =========================================
+/*
+ * Here, Box defines three constructors to initialize the dimensions of a box
+ * various ways.
+ */
+
+//class BoxOverload {
+//	double width;
+//	double height;
+//	double depth;
+//
+//	// // constructor used when all dimensions specified
+//	BoxOverload(double w, double h, double d) {
+//		width = w;
+//		height = h;
+//		depth = d;
+//	}
+//
+//	// // // // constructor used when no dimensions specified
+//	BoxOverload() {
+//		width = -1; // use -1 to indicate
+//		height = -1; // an uninitialized
+//		depth = -1; // box
+//	}
+//
+//	//
+//	// // // // // constructor used when cube is created
+//	BoxOverload(double len) {
+//		width = height = depth = len;
+//	}
+//
+//	//// // compute and return volume
+//	double volume() {
+//		return width * height * depth;
+//	}
+//}
+//
+//class OverloadDemo {
+//	public static void main(String args[]) { //
+//		// create boxes using the various constructors
+//		BoxOverload mybox1 = new BoxOverload(10, 20, 15);
+//		BoxOverload mybox2 = new BoxOverload();
+//		BoxOverload mycube = new BoxOverload(7);
+//		double vol; // // get volume of first box
+//		vol = mybox1.volume();
+//		System.out.println("Volume of mybox1 is " + vol); // // get
+//		// volume of second box
+//		vol = mybox2.volume();
+//		System.out.println("Volume of mybox2 is " + vol); // // get volume of cube
+//		vol = mycube.volume();
+//		System.out.println("Volume of mycube is " + vol);
+//	}
+//}
+//
+// ============================================
+
+// Objects may be passed to methods.
+
+//class Test {
+//	int a, b;
+//
+//	Test(int i, int j) {
+//		a = i;
+//		b = j;
+//	}
+//
+//	// // return true if o is equal to the invoking object
+//	boolean equalTo(Test o) {
+//		if (o.a == a && o.b == b)
+//			return true;
+//		else
+//			return false;
+//	}
+//}
+//
+////
+//////
+//class OverloadDemo {
+//	public static void main(String args[]) {
+//		Test ob1 = new Test(100, 22);
+//
+//		Test ob2 = new Test(100, 22);
+//		Test ob3 = new Test(-1, -1);
+//		System.out.println("ob1 == ob2: " + ob1.equalTo(ob2));
+//		System.out.println("ob1 == ob3: " + ob1.equalTo(ob3));
+//		System.out.println("ob1 == ob3: " + ob3.equalTo(ob1));
+//
+//	}
+//}
+
+// ===================================
+
+// Here, Box allows one object to initialize another.
+
+class BoxOverload {
+	double width;
+	double height;
+	double depth;
+
+	// Notice this constructor. It takes an object of type Box.
+	BoxOverload(BoxOverload ob) {
+		// pass object to constructor
+		width = ob.width;
+		height = ob.height;
+		depth = ob.depth;
+	}
+
+	// //
+	// // constructor used when all dimensions specified
+	BoxOverload(double w, double h, double d) {
+		width = w;
+		height = h;
+		depth = d;
+	}
+
+	//
+	// // // // constructor used when no dimensions specified
+	BoxOverload() {
+		width = -1; // use -1 to indicate
+		height = -1; // an uninitialized
+		depth = -1; // box
+
+	}
+
+	//
+	// constructor used when cube is created
+	BoxOverload(double len) {
+		width = height = depth = len;
+	}
+
+	// // // compute and return volume
+	double volume() {
+		return width * height * depth;
+	}
+}
+
+class OverloadDemo {
+	public static void main(String args[]) { // create boxes using the various
+		// // constructors
+		//
+		BoxOverload mybox1 = new BoxOverload(10, 20, 15);
+		BoxOverload mybox2 = new BoxOverload();
+		BoxOverload mycube = new BoxOverload(7);
+		BoxOverload myclone = new BoxOverload(mybox1); // create copy of mybox1
+		double vol; // get volumeof first box
+		vol = mybox1.volume();
+		System.out.println("Volume of mybox1 is " + vol); // get volume of second box
+		vol = mybox2.volume();
+		System.out.println("Volume of mybox2 is " + vol); // get volume of cube
+		vol = mycube.volume();
+		System.out.println("Volume of cube is " + vol); // getvolume of clone
+		vol = myclone.volume();
+		System.out.println("Volume of clone is " + vol);
+	}
+}

@@ -1,0 +1,17 @@
+package selenium;
+
+public class O0020_IE_Challanges {
+
+	public static void main(String[] args) {
+		String service = "D:\\ToolsQA\\trunk\\Library\\drivers\\IEDriverServer.exe";
+		System.setProperty("webdriver.ie.driver", service);
+
+		InternetExplorerDriver  driver = new InternetExplorerDriver();
+		driver.get("URL for which certificate error is coming");
+		driver.navigate().to("javascript:document.getElementById('overridelink').click()");  
+		}
+		}		// TODO Auto-generated method stub
+
+	}
+
+}

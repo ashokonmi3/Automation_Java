@@ -1,0 +1,20 @@
+package corejavapackage;
+
+public class Debug {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		int b = 20;
+		System.out.println("Hello world");
+		System.out.println("Hello java");
+		System.out.println("Hello java1");
+
+	}
+
+}
+
+// Break Point-- by double clicking or right click on line and toggle debug
+// Execution will stop at break point
+// Need to run as debug as java application
+// switch to debug prospective

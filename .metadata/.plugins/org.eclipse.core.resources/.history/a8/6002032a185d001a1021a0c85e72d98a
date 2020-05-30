@@ -1,0 +1,21 @@
+package certification.oracle;
+
+public class ExceptionClass {
+	public static void main(String[] args) {
+
+				method1();	// line 3
+			}	// line 4
+			public static void method1() {	// line 5 
+				method2();	// line 6
+			}	// line 7
+			 
+
+			public static void method2() {	
+				String[] students = {"Shreya", "Joseph"};	// line 9 
+				System.out.println(students[5]);	// line 10
+			}	// line 11
+			
+
+	
+	}
+}

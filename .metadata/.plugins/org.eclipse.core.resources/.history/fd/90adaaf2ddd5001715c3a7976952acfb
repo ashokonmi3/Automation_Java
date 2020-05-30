@@ -1,0 +1,120 @@
+package corejavapackage;
+
+import java.util.Formatter;
+import java.util.Scanner;
+
+
+
+//public class O9JavaIinputOutputOperations {
+//out put
+//	public static void main(String[] args) {
+//	print() - prints string inside the quotes.
+//		println() - prints string inside the quotes similar like print() method. Then the cursor moves to the beginning of the next line.
+//		printf() - it provides string formatting
+		
+		
+//		System.out.println("1. println ");
+//    	System.out.println("2. println ");
+//    	
+//    	System.out.print("1. print ");
+//    	System.out.print("2. print");
+//	}
+//
+//}
+
+//=======================
+//public class O9JavaIinputOutputOperations {
+//		public static void main(String[] args) {
+//	%αd: integer printed in α spaces (α is optional).
+//	%αs: String printed in α spaces (α is optional). If α is omitted, the number of spaces is the length of the string (to fit the string).
+//	%α.βf: Floating point number (float and double) printed in α spaces with β decimal digits (α and β are optional).
+//	%n: a system-specific new line (Windows uses "\r\n", Unix and Mac "\n").
+//	Examples:
+//			System.out.printf("Hello%2d and %6s", 8, "HI");
+
+			
+			
+//}
+//	
+//}
+
+//======================
+
+
+
+
+
+//public class O9JavaIinputOutputOperations {
+//
+//	public static void main(String[] args) {
+//		Scanner scan = new Scanner(System.in); //System.in is an input stream
+//	    
+//		System.out.println("Enter Your Name");
+//		String name = scan.nextLine();// it will read next line till EOL
+//		System.out.println("You are Name is "+name);
+//		    
+//		System.out.println("Enter Your City");
+//		String city = scan.next();// read till space
+//		System.out.println("Your City is "+ city);
+//		    
+//		System.out.println("Enter a Number");
+//		int num = scan.nextInt();
+//		System.out.println("Your Number is "+num);
+//		    
+//		System.out.println("Enter a Mobile Number");
+//		long num2 = scan.nextLong();
+//		System.out.println("Your Mobile Number is "+num2);
+//		        
+//		System.out.println("Enter a Value");
+//		double num3 = scan.nextDouble();
+//		System.out.println("Your Value is "+num3);
+//		    
+//		System.out.println("Enter a Character");
+//		char a = scan.next().charAt(0);
+//		System.out.println("Your Char is "+a);
+//		    
+//		System.out.println("Enter a Value");
+//		boolean val = scan.nextBoolean();
+//		System.out.println("Your Value is "+val);
+//
+//		scan.close();
+//
+//	}
+//
+//}
+
+import java.util.Scanner;               // Needed for using Scanner
+import java.io.File;                    // Needed for file operation
+import java.io.FileNotFoundException;
+public class O9JavaIinputOutputOperations {
+public static void main(String[] args) throws FileNotFoundException {
+		
+	int num1;
+    double num2;
+    String name;
+	Scanner in = new Scanner(new File("C:\\My\\P\\Study\\CoreJava\\out.txt"));
+	num1 = in.nextInt();      // Read int
+	num2 = in.nextDouble();   // Read double
+	name = in.next();         // Read String
+	System.out.printf("Hi %s, the sum of %d and %.2f is %.2f%n", name, num1, num2, num1+num2);
+	in.close();
+	}
+
+}
+
+
+//import java.util.Scanner;               // Needed for using Scanner
+//import java.io.File;                    // Needed for file operation
+//import java.io.FileNotFoundException;
+//public class O9JavaIinputOutputOperations {
+//public static void main(String[] args) throws FileNotFoundException {
+//
+//Formatter out = new Formatter(new File("C:\\My\\P\\Study\\CoreJava\\out.txt"));
+//// Write to file with format() method (similar to printf())
+//int num1 = 1234;
+//double num2 = 55.66;
+//String name = "Paul";
+//out.format("Hi %s,%n", name);
+//out.format("The sum of %d and %.2f is %.2f%n", num1, num2, num1 + num2);
+//out.close();    
+//}}

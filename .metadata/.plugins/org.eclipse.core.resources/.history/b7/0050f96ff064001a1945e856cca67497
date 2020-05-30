@@ -1,0 +1,45 @@
+package certification.oracle;
+
+//public class Java_04_API_ARRAYS {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		String morning1 = "Morning";
+//		System.out.println("Morning" == morning1);
+//		String morning2 = new String("Morning");
+//		System.out.println("Morning" == morning2);
+//	}
+//
+//}
+//==============
+public class Java_04_API_ARRAYS {
+	//
+	public static void main(String[] args) {
+		// String girl = new String("Shreya");
+		// char[] name = new char[] { 'P', 'a', 'u', 'l' };
+		// String boy = new String(name);
+		// System.out.println(boy);
+		//
+		// StringBuilder sd1 = new StringBuilder("String Builder");
+		// String str5 = new String(sd1);
+		// StringBuffer sb2 = new StringBuffer("String Buffer");
+		// String str6 = new String(sb2);
+		// String empName = null;
+		// String summer = new String("Summer");
+		// String summer2 = "Summer";
+		// System.out.println("Summer");
+		// System.out.println("autumn");
+		// System.out.println("autumn" == "summer");
+		// String autumn = new String("Summer");
+		// String letters = "ABCAB";
+		// System.out.println(letters.substring(0, 2).startsWith('A'));
+
+		String lang1 = "Java";
+		String lang2 = "JaScala";
+		String returnValue1 = lang1.substring(0, 1);
+		String returnValue2 = lang2.substring(0, 1);
+		System.out.println(returnValue1 == returnValue2);
+		System.out.println(returnValue1.equals(returnValue2));
+
+	}
+}

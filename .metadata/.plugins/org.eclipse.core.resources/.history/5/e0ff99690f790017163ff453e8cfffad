@@ -1,0 +1,60 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class elementLocators {
+
+	public static void main(String[] args) throws InterruptedException {
+		//WebDriver driver = new FirefoxDriver();
+
+        WebDriver driver= new ChromeDriver();
+		driver.get("http://www.calculator.net/bmi-calculator.html");
+//		driver.get("http://www.rediff.com");
+//		http://www.rediff.com/
+//	    driver.findElement(By.id("http://www.rediff.com")).clear();
+		
+//		Thread.sleep(3000);
+		
+		//finding element by id.
+//		driver.findElement(By.id("cage")).sendKeys("45");
+		
+		//finding element by name.
+//    driver.findElement(By.name("cpound")).clear();
+//		driver.findElement(By.name("cpound")).sendKeys("130");
+//		
+		//by class name
+//		driver.findElement(By.className("innormal")).clear();
+//		driver.findElement(By.className("innormal")).sendKeys("6");
+//		
+		//BY link text - no need of plugin .its visible element 
+//		driver.get("https://www.google.co.in/?gws_rd=ssl");
+//		driver.findElement(By.linkText("Gmail")).click();;
+		
+		/*WebElement Email=driver.findElement(By.linkText("Gmail"));;
+		Email.click();*/ 
+		//to perform multiple operations
+		
+		//By partial link text
+		//driver.findElement(By.partialLinkText("Gma")).click();;
+		
+		//By Css selector
+
+
+	
+		driver.get("http://demoqa.com/registration/");
+		//driver.findElement(By.id("name_3_firstname")).sendKeys("Suraj");
+		//driver.findElement(By.name("first_name")).sendKeys("Swati");
+		//driver.findElement(By.cssSelector("#name_3_lastname")).sendKeys("Patil");
+		
+		//driver.findElement(By.cssSelector(".gb_P")).click();;
+		
+		//By Xpath
+		driver.findElement(By.xpath(".//*[@id='name_astname']")).sendKeys("Gupta");;;
+		driver.findElement(By.xpath("//div[@class='divicon']")).click();
+
+		}
+
+}

@@ -1,0 +1,158 @@
+package corejavapackage;
+
+// comment
+// Information about programs -- This is my first program
+// created by - ashok
+// date : 23 April 2019
+// place: bangalore
+////
+public class O001_Variable {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to selenium");
+		System.out.println("Welcome to java");
+		System.out.println("Welcome to QA Class");
+		System.out.println("Welcome to Ashok's class");
+
+	}
+}
+// Public-
+// Access modifier (protected, Private, Default,public)
+// class - it is keyword
+// 01_Variable- name of class
+// public
+// static-non access modifier
+// void - retrun type of function
+// main - name of method
+// ctrl+/-- comment the code
+// Running the program
+// ctrl+f11
+// green key Run
+// right click and run as java application
+
+// =====================
+//
+// public class O001_Variable {
+//
+// public static void main(String[] args) {
+// int a; // Declaration
+// a = 10; // Initialization
+// System.out.println(a);
+// int b; // Declaration
+// b = 100; // Initialization
+// System.out.println(b);
+// }
+// }
+
+// ================
+// public class O001_Variable {
+//
+// public static void main(String[] args) {
+// int a = 100; // Initialization
+// System.out.println(a);
+// }
+// }
+//// ===========================
+//
+// public class O001_Variable {
+// public static void main(String[] args) {
+// int a = 10;
+// System.out.println(a);
+// a = a + 10;
+// System.out.println(a);
+// int b = a;
+// System.out.println(b);
+// }
+// }
+//
+//// ========================
+// Declaration of multiple variables in a statement
+// public class O001_Variable {
+// public static void main(String[] args) {
+// int a, b, c, d;
+// a = 10;
+// b = 20;
+// c = 30;
+// d = 100;
+// System.out.println(a);
+// System.out.println(b);
+// System.out.println(c);
+// System.out.println(d);
+// }
+// }
+// ===================================
+// // // Declaration of multiple variable and Assigning values.
+// public class O001_Variable {
+// public static void main(String[] args) {
+// int e = 50, f = 60, g = 70;
+// char x = 'A';
+// double y = 2.90909;
+// String z = "selenium";
+// String z1 = " 123%%$$$.0";
+// System.out.println(e);
+// System.out.println(f);
+// System.out.println(g);
+// System.out.println(z);
+// System.out.println(x);
+// System.out.println(y);
+// System.out.println(z1);
+// }
+// }
+
+// ============================
+//////
+// public class O001_Variable {
+// public static void main(String[] args) {
+//
+// String z = "Selenium";
+// char x = 'x';
+// int a = 10;
+// System.out.println("the string out put is " + z);
+// System.out.println("the integer out put is " + a);
+// System.out.println("the char x out put is " + x);
+//
+// }
+// }
+
+// ===========================
+////
+// class O001_Variable {
+// public static void main(String[] args) {
+// System.out.print("Enter an integer: ");
+// Scanner input = new Scanner(System.in);
+// int x = input.nextInt();
+// System.out.println("You entered " + x);
+// System.out.println("Double of entered value " + 2 * x);
+//
+// }
+// }
+
+// ===================
+// class O001_Variable {
+// public static void main(String[] args) {
+//
+// Scanner userinput = new Scanner(System.in);
+// //
+// // // Getting float input
+// System.out.print("Enter float: ");
+// float myFloat = userinput.nextFloat();
+// System.out.println("Float entered = " + myFloat);
+// //
+// // // // Getting double input
+// System.out.print("Enter double: ");
+// double myDouble = userinput.nextDouble();
+// System.out.println("Double entered = " + myDouble);
+// //
+// // Getting String input
+// System.out.print("Enter text: ");
+// String myString = userinput.next();
+// System.out.println("string entered = " + myString);
+//
+// }
+// }
+
+// =====================
+/// *Assignment
+// 1.Write a Java program to print 'Hello' on screen
+// 2 write a program to take your name as input and print "welcome to java sel
+// world + your name"

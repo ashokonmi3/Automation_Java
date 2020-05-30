@@ -1,0 +1,107 @@
+package selenium;
+
+import java.awt.AWTException;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+//public class AlertDemo {
+//	// //
+//	public static void main(String[] args) throws NoAlertPresentException, InterruptedException {
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+//		driver.findElement(By.name("alert")).click();
+//		Alert ale = driver.switchTo().alert();
+//		Thread.sleep(5000);
+//		String s = ale.getText();
+//		System.out.println(s);
+//		// clicks 'OK' button
+//		// ale.dismiss();
+//		ale.accept();
+//
+//		Thread.sleep(5000);
+//		driver.quit();
+//
+//	}
+//}
+// =========================
+
+// Confirmation box
+//
+//public class AlertDemo {
+//	// //
+//	public static void main(String[] args) throws NoAlertPresentException, InterruptedException {
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+//		driver.findElement(By.name("confirmation")).click();
+//		Alert ale = driver.switchTo().alert();
+//		Thread.sleep(5000);
+//		String s = ale.getText();
+//		System.out.println(s);
+//		// clicks 'OK' button
+//		ale.dismiss();
+//		Thread.sleep(5000);
+//		driver.quit();
+//
+//	}
+//}
+// =================
+
+// =======================
+
+//public class AlertDemo {
+//	// //
+//	public static void main(String[] args) throws NoAlertPresentException, InterruptedException, AWTException {
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+//
+//		driver.findElement(By.name("prompt")).click();
+//		Alert ale = driver.switchTo().alert();
+//		Thread.sleep(2000);
+//		// ale.sendKeys(arg0);
+//		ale.sendKeys("sasfs");/// need to check why not typing
+//		Thread.sleep(2000);
+//
+//		// ale.dismiss();
+//
+//		Thread.sleep(10000);
+//		driver.quit();
+//
+//	}
+//}
+
+// ======================
+public class AlertDemo {
+	// //
+	public static void main(String[] args) throws NoAlertPresentException, InterruptedException, AWTException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+		//
+
+		driver.findElement(By.name("prompt")).click();
+		Alert ale = driver.switchTo().alert();
+		Thread.sleep(2000);
+
+		// ale.sendKeys("java selenium");
+		try {
+			ale.sendKeys("abc");
+		} catch (Exception e) {
+			System.out.println("exception");
+		}
+		Thread.sleep(5000);
+
+		// Robot rb = new Robot();
+		// rb.keyPress(KeyEvent.VK_WINDOWS);
+		// rb.keyPress(KeyEvent.VK_PRINTSCREEN);
+		// rb.keyRelease(KeyEvent.VK_PRINTSCREEN);
+		// rb.keyRelease(KeyEvent.VK_WINDOWS);
+		// // clicks 'OK' button
+		Thread.sleep(5000);
+		driver.quit();
+
+	}
+}
+// ======================

@@ -1,0 +1,40 @@
+package selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Browserhandling_02 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.google.co.in");
+		Thread.sleep(3000);
+		String Title = driver.getTitle();
+		System.out.println(Title);
+		String pageSource = driver.getPageSource();
+		System.out.println(pageSource);
+		// String expecctedURL = "http://www.rediff.com/movies";
+		String URL = driver.getCurrentUrl();
+		System.out.println(URL);
+		//
+		driver.navigate().to("https://login.yahoo.com/");
+		Thread.sleep(3000);
+
+		URL = driver.getCurrentUrl();
+		System.out.println(URL);
+		driver.navigate().back();
+		URL = driver.getCurrentUrl();
+		System.out.println(URL);
+		driver.navigate().forward();
+
+		// driver.get("https://www.gmail.com");
+		// driver.findElement(By.id("identifierId")).sendKeys("India");
+		Thread.sleep(3000);
+
+		driver.close();
+
+	}
+
+}

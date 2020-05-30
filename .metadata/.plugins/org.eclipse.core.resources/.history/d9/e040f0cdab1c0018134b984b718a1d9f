@@ -1,0 +1,185 @@
+package corejavapackage;
+
+//modifier returnType methodName(Parameters) {
+// Method body
+//}
+
+//public
+//
+//modifier -It is optional, it defines access type of the method
+//
+//returnType - Method may retrun a value
+//
+//methodName - Name of the method.
+//
+//parameters - Parameters are optional, we can use mutiple parameters by
+//separating with ,
+//
+//method body - set of statements define that what the method does.
+
+//*/
+
+//public class O7Functions {
+//	// //
+//	public static void main(String[] args) {
+//		printname("java");
+//		printname("python");
+//		printname("javascript");
+//		//
+//	}
+//
+//	//
+//	public static void printname(String s) {
+//		System.out.println(s);
+//	}
+//}
+
+//public class O7Functions {
+// //
+//	public static void main(String[] args) {
+// //
+// // // The entry main method
+//		double r = 1.1, area, area2;
+// // // Call (Invoke)
+// //
+// // method
+// getArea(r);
+//		area = getArea(r);
+//		System.out.println("area is " + area);
+// // Call method getArea() again
+//		area2 = getArea(2.2);
+//		System.out.println("area 2 is " + area2);
+// // // Call method getArea() one more time
+//		System.out.println("area 3 is " + getArea(3.3));
+// //
+//	}
+
+//
+// // // Method getArea() dEefinition.Compute and return
+// //
+// // // the area (in double) of circle given its radius (in
+// // // double).
+//	public static double getArea(double radius) {
+//
+//		double x = radius * radius * Math.PI;
+//		return radius * radius * Math.PI;
+//	}
+//}
+// ====================================================
+// TODO Auto-generated method stub
+// O7Functions obj=new O7Functions();
+// int c,d;
+// c=add(5,3);
+// d=add(100,200,200);
+// add(3);
+//// System.out.println(d);
+//// printname();
+// printnamestring("Python");
+// printnamestringmultiple("Python");
+
+// public class O7Functions {
+// // //
+// public static void main(String[] args) {
+// //
+// int c, d;
+// c = add(5, 3);
+// d = add(100, 200);
+// System.out.println(c);
+//
+// }
+//
+// //
+// public static int add(int a, int b) {
+// int result;
+// result = a + b;
+// return result;
+// }
+// }
+
+// ===========================
+// studentRank( 450 ); // without returning value
+
+// ;
+// printnamestringmultiple("Python","Selenium");
+
+// }
+// public static int add (int a, int b){
+// int result;
+// result = a + b;
+// return result;
+// }
+
+// public static void printname (){
+// System.out.println("java Selenium");
+//
+// }
+//
+// public static void printnamestring (String a){
+// System.out.println("java Selenium"+ a);
+//
+// }
+// public static void printnamestringmultiple (String a,String b){
+// System.out.println( a+b);
+// }
+
+// ===============================
+//public class O7Functions {
+//	// // ////
+//	public static void main(String[] args) {
+//		// //
+//		studentRank(1000);
+//	}
+//
+//	//
+//	// //
+//	public static void studentRank(int marks) {
+//		if (marks >= 600) {
+//			System.out.println("Rank:A1");
+//		} else if (marks >= 500) {
+//			System.out.println("Rank:A2");
+//		} else {
+//			System.out.println("Rank:A3");
+//		}
+//	}
+//}
+
+// ===========================================
+/* Function Overloading */
+public class O7Functions {
+	public static void main(String[] args) {
+		// add(1000);
+		// System.out.println("after function execution");
+		// add(1000, 2000);
+		int z = add(1000, 2000, 30000);
+		add(z);
+		//
+	}
+
+	//
+	public static void add(int a) {
+		int result;
+		result = a + 10;
+		System.out.println(result);
+		// int z = add(10, 19, 12);
+		// System.out.println(z);
+
+	}
+
+	//
+	public static int add(int a, int b, int c) {
+		int result;
+		result = a + b + c;
+		System.out.println(result);
+
+		return result;
+	}
+
+	//
+	public static int add(int a, int b) {
+		int result;
+		result = a + b;
+		System.out.println(result);
+
+		return result;
+	}
+}

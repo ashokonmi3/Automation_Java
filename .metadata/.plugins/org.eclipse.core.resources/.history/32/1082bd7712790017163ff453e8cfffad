@@ -1,0 +1,40 @@
+package selenium;
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class dropDownbox {
+
+	public static void main(String[] args) throws InterruptedException {
+//		System.setProperty("webdriver.gecko.driver","G:\\Saftwares BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		driver.get("http://www.gcrit.com/build3/create_account.php?osCsid=47gtsrhe41613u5r3eqhgdbas7");
+		Select dropdown =new Select(driver.findElement(By.name("country")));
+		Thread.sleep(5000);
+//		dropdown.selectByIndex(6); //selecting an item in a drop box by using index
+		//dropdown.selectByVisibleText("India");
+		
+		dropdown.selectByVisibleText("India");
+		
+		
+		
+		
+		
+		List <WebElement> e= dropdown.getOptions();
+		//int e= dropdown.getOptions();
+		int itemsCount= e.size();
+		System.out.println(itemsCount);
+		
+		
+		
+		
+
+	}
+
+}

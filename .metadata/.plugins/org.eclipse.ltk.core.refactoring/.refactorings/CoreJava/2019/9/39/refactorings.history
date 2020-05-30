@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;corejavapackage.A0017_Interface.java&apos; to &apos;Java_17_interface.java&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;corejavapackage.A0017_Interface.java&apos;&#x0D;&#x0A;- Renamed element: &apos;corejavapackage.Java_17_interface.java&apos;" description="Rename compilation unit &apos;A0017_Interface.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;corejavapackage{A0017_Interface.java" name="Java_17_interface.java" references="false" stamp="1569686470698" version="1.0"/>
+</session>

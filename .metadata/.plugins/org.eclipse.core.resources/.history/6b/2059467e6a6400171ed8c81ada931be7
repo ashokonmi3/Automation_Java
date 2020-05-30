@@ -1,0 +1,39 @@
+package selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class handleWebtable {
+
+	public static void main(String[] args) throws InterruptedException {
+		//System.setProperty("webdriver.gecko.driver","G:\\Saftwares BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		driver.get("https://www.e-education.psu.edu/styleforstudents/c4_p14.html");
+		String s= driver.findElement(By.xpath(".//*[@id='node-page-1947']/div[1]/div[1]/div/div/div[2]/table/tbody/tr[3]/td[3]")).getText();
+		System.out.println(s);
+		
+		Thread.sleep(6000);
+		
+		driver.navigate().to("http://www.cems.uwe.ac.uk/~pchatter/resources/html/emp_dept_data+schema.html");
+		WebElement table=driver.findElement(By.className("MsoNormalTable"));
+		List <WebElement> rows=table.findElements(By.tagName("tr"));
+		int r=rows.size();
+		System.out.println(r);
+		
+//		List <WebElement> cells=table.findElements(By.tagName("td"));
+//		int c=cells.size();
+//		System.out.println(c);
+//		
+		
+		
+		
+		
+		
+
+	}
+
+}

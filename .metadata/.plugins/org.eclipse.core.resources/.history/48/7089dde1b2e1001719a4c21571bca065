@@ -1,0 +1,27 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class handleLink {
+
+	public static void main(String[] args) {
+		// System.setProperty("webdriver.gecko.driver","G:\\Saftwares
+		// BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		// General Image (No functionality)
+
+		driver.get("https://login.yahoo.com/");
+		WebElement link = driver.findElement(By.linkText("Help"));
+
+		System.out.println(link.isDisplayed());
+		System.out.println(link.isEnabled());
+		System.out.println(link.getText());
+		link.click();
+
+	}
+
+}

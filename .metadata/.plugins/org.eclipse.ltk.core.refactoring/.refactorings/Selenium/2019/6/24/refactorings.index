@@ -1,0 +1,38 @@
+1560069200102	Rename compilation unit 'dropDownbox.java'
+1560069239919	Rename type 'handlingFrame'
+1560069278387	Rename compilation unit 'Form.java'
+1560069311059	Delete element
+1560069344010	Delete element
+1560069382378	Rename compilation unit 'AlertDemo.java'
+1560093119588	Rename type 'O0001_BrowserOperation'
+1560093138605	Rename type 'O0002_elementLocators'
+1560093161981	Rename type 'O0003_EditBox'
+1560093186306	Rename type 'O0004handleLink'
+1560093204624	Rename type 'SEL_0004handleLink'
+1560093233294	Rename type 'O0005handleImage'
+1560093246682	Delete element
+1560093260424	Rename compilation unit 'O0006_dropDownbox.java'
+1560093277845	Rename type 'O0007_handlingFrame'
+1560093293052	Rename compilation unit 'O0008_Radio_CheckBox.java'
+1560093314782	Rename compilation unit 'O0009_AlertDemo.java'
+1560093338138	Rename type 'O0010_table'
+1560093363315	Rename type 'O0011_Mousehover'
+1560093388700	Rename type 'O0012_Waits'
+1560093655924	Rename type 'O0022_Javascriptexecutor'
+1560093676932	Rename type 'O0021_WindowsHandle'
+1560093914707	Delete element
+1560093924647	Delete element
+1560093981339	Rename type 'crossBrowsertest2'
+1560094017656	Delete element
+1560094050222	Delete element
+1560094061146	Delete element
+1560094070030	Delete element
+1560094109659	Move compilation unit
+1560094175232	Rename type 'testCase1'
+1560094196583	Rename type 'testCase4'
+1560094226723	Rename type 'testCase5'
+1560351612147	Delete element
+1560351837249	Rename package 'desiredCapabilities'
+1560357954129	Rename type 'ScreenCapture'
+1560611735902	Rename type 'SEL_0020_Event'
+1560611749698	Rename type 'SEL_0021_EventListener'

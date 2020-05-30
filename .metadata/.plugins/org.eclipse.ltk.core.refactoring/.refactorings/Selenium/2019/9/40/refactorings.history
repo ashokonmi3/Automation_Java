@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;selenium.SEL_0003_EditBox&apos; to &apos;SEL_03_EditBox&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;selenium.SEL_0003_EditBox&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium.SEL_03_EditBox&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SEL_0003_EditBox&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;selenium{SEL_0003_EditBox.java[SEL_0003_EditBox" matchStrategy="1" name="SEL_03_EditBox" qualified="false" references="true" similarDeclarations="false" stamp="1569859173456" textual="false" version="1.0"/>
+</session>

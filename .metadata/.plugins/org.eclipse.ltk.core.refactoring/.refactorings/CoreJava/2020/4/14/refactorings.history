@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CoreJava/src/corejavapackage/Access-Modifiers-in-Java.png&apos; to &apos;Java_13_Access-Modifiers-in-Java.png&apos;" description="Rename resource &apos;Access-Modifiers-in-Java.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/corejavapackage/Access-Modifiers-in-Java.png" name="Java_13_Access-Modifiers-in-Java.png" stamp="1586006547785" updateReferences="true"/>
+</session>

@@ -1,0 +1,122 @@
+package certification.oracle;
+
+// ===============
+// public class ExceptionClass {
+// public static void main(String args[]) {
+// FileInputStream fis = null;
+// try {
+// fis = new FileInputStream("file.txt");
+// System.out.println("File Opened");
+// fis.read();
+// System.out.println("Read File");
+// }
+// finally {
+//
+// System.out.println("finally");
+//
+//
+// } catch (FileNotFoundException fnfe){
+// System.out.println("File not found");
+// }
+// catch (IOException ioe) {
+// System.out.println("File Closing Exception");
+// }
+// System.out.println("Next task..");
+// }
+// }
+// =========================
+
+// class FallInRiverException extends Exception {
+// }
+//
+// class RiverRafting {
+//
+// void crossRapid(int degree) throws FallInRiverException {
+// System.out.println("Cross Rapid");
+// if (degree > 10)
+// throw new FallInRiverException();
+// }
+// }
+//
+// class ExceptionClass {
+// public static void main(String args[]) {
+// RiverRafting riverRafting = new RiverRafting();
+// riverRafting.crossRapid(9);
+// }
+// }
+// main is not throwing any exception or neither handling
+// ==================
+// class FallInRiverException extends Exception {
+// }
+//
+// class RiverRafting {
+//
+// void crossRapid(int degree) throws FallInRiverException {
+// System.out.println("Cross Rapid");
+// if (degree > 10)
+// throw new FallInRiverException();
+// }
+// }
+//
+// class ExceptionClass {
+// public static void main(String args[]) {
+// RiverRafting riverRafting = new RiverRafting();
+// try {
+// riverRafting.crossRapid(9);
+// } catch (FallInRiverException e) {
+// System.out.println("Exception : " + e);
+// }
+// }
+// }
+//
+// class Declare {
+// public static void main(String args[]) throws FallInRiverException {
+// RiverRafting riverRafting = new RiverRafting();
+// riverRafting.crossRapid(9);
+// }
+// }
+//
+// class HandleAndDeclare {
+// public static void main(String args[]) throws FallInRiverException {
+// RiverRafting riverRafting = new RiverRafting();
+// try {
+// riverRafting.crossRapid(9);
+// } catch (FallInRiverException e) {
+// System.out.println("Exception : " + e);
+// }
+// }
+// }
+//===============
+
+import java.io.*;
+
+public class ReturnFromCatchBlock {
+	public static void main(String args[]) {
+		openFile();
+	}
+
+private static void openFile() { FileInputStream fis = null; try {
+fis = new FileInputStream("file.txt");
+ 
+//The return statement does not return the control to
+//the main method    	 before execution of thefinally block
+//completes.
+
+
+}
+ 
+}catch(
+
+	FileNotFoundException fnfe)
+	{
+		System.out.println("file not found");
+		return;
+	}finally
+	{
+		System.out.println("finally");
+	}System.out.println("Next task..");
+
+Code output:
+	file not found finally
+
+}

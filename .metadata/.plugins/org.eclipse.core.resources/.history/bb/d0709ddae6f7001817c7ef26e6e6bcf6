@@ -1,0 +1,77 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class dropDownbox {
+
+	public static void main(String[] args) throws InterruptedException {
+		String baseURL = "http://demo.guru99.com/selenium/newtours/register.php";
+		WebDriver driver = new ChromeDriver();
+		driver.get(baseURL);
+		Thread.sleep(10000);
+		//
+		// // //
+		Select drpCountry = new Select(driver.findElement(By.name("country")));
+		// List<WebElement> elementCount = drpCountry.getOptions();
+		// Thread.sleep(10000);
+		// //
+		// System.out.println(elementCount.size());
+		// drpCountry.selectByIndex(18);
+		// Thread.sleep(10000);
+		// ======================================================
+//		drpCountry.selectByVisibleText("ANTARCTICA");
+//
+//		Thread.sleep(5000);
+//		// //
+//		driver.close();
+		// ==========================================
+
+		// WebElement e = drpCountry.getFirstSelectedOption();
+		// System.out.println(e.getText());
+		// Thread.sleep(5000);
+		// driver.close();
+
+		// default value
+		// ===================================
+		// WebDriver driver = new ChromeDriver();
+		//
+		// // // Selecting Items in a Multiple SELECT elements
+		 driver.get("http://jsbin.com/osebed/2");
+		 Select fruits = new Select(driver.findElement(By.id("fruits")));
+		 fruits.selectByVisibleText("Banana");
+		 Thread.sleep(5000);
+		 // // // // // //
+		 fruits.selectByIndex(1);
+		 Thread.sleep(5000);
+		 fruits.selectByValue("orange");
+		 // // //
+		 Thread.sleep(10000);
+		 // // //
+		 driver.close();
+		// =====================================================
+		// driver.get("https://www.autohero.com/de/search/\r\n");
+		// Thread.sleep(5000);
+		//
+		// driver.findElement(By.cssSelector("[data-qa-selector='filter-year']")).click();
+		// Select elem = new
+		// Select(driver.findElement(By.className("Select-value-label")));
+
+		// elem.selectByVisibleText("2011");
+
+		// driver.close();
+
+	}
+}
+
+// selectByVisibleText()/deselectByVisibleText()-->selects/
+//
+// deselects an
+// option by
+// its displayed
+//
+// text
+// selectByValue()/ deselectByValue()
+// selectByIndex()/ deselectByIndex()

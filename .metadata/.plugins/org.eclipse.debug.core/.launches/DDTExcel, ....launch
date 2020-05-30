@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="DataDriven.DDTExcel" value="ProgramTermination;DemoProject;TestDataFeed"/>
+<mapEntry key="Listener_test.ListenerTest" value="onTestStart;onTestSkipped;onFinish;onTestSuccess;onTestFailedButWithinSuccessPercentage;onStart;onTestFailure"/>
+<mapEntry key="Listener_test.TestCases" value="Login;TestToFail"/>
+<mapEntry key="test.NG.BeforeGroup" value="afterGroupsExampleReal;beforeGroupsExampleDummy;afterGroupsExampleDummy;openReal;beforeGroupsExampleReal;openDummy"/>
+<mapEntry key="test.NG.Crossbrowser" value="setup;testParameterWithXML"/>
+<mapEntry key="test.NG.ExcelTest" value="ReadData;TestSetup"/>
+<mapEntry key="test.NG.Grouping" value="logout;prePaidRecharge;search;fundTransfer;billPayments;advancedSearch;login"/>
+<mapEntry key="test.NG.ParallelExecution_01" value="testCase1;testCase2;testCase3"/>
+<mapEntry key="test.NG.ParallelExecution_02" value="testCase6;testCase5;testCase4"/>
+<mapEntry key="test.NG.TNG_0002_SecondTest" value="verifyTitleNegative;verifyTitle;secondTest"/>
+<mapEntry key="test.NG.TNG_0004_Sequencing" value="testCase2;testCase1;afterSuite;afterMethod;beforeClass;beforeMethod;afterTest;afterClass;beforeTest;beforeSuite"/>
+<mapEntry key="test.NG.TNG_0008_Parameters" value="f"/>
+<mapEntry key="test.NG.TNG_01_Assert" value="testAssertTrue"/>
+<mapEntry key="test.NG.TNG_02_FirstTest" value="thirddTest;secondTest;fourthTest;firstTest"/>
+<mapEntry key="test.NG.TNG_03_Multipletest" value="pqr;xyz1;apqr;abcd;abcde;pqr1;xyz"/>
+<mapEntry key="test.NG.TNG_04_Dependencies" value="method1;method3;method2;method4"/>
+<mapEntry key="test.NG.TNG_05_InvocationCounter" value="f1"/>
+<mapEntry key="test.NG.TNG_06_BeforeAfterMethod" value="afterMethod;verifyPageTitle2;verifyPageTitle1;beforeMethod"/>
+<mapEntry key="test.NG.TNG_07_BeforeafterClass" value="verifyPageTitle2;afterClass;f;beforeClass"/>
+<mapEntry key="test.NG.TestSuite01" value="addVendor;login;addCurrency;logout;addProduct"/>
+<mapEntry key="test.NG.Testsuite02" value="deleteCurrency;deleteVendor;logout;deleteProduct;login"/>
+<mapEntry key="test.test.NG.AjaxTest" value="setUp;test_AjaxExample"/>
+<mapEntry key="test.test.NG.NewTest" value="f"/>
+<mapEntry key="test.test.NG.O0021_AssertVsVerify" value="testPageTitle;tearDown;softAssert;hardAssert;setUp"/>
+<mapEntry key="test.test.NG.abcd" value="f"/>
+<mapEntry key="test.test.NG.classfortestng" value="f"/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="test.NG.TNG_01_Assert"/>
+<listEntry value="test.test.NG.abcd"/>
+<listEntry value="test.test.NG.classfortestng"/>
+<listEntry value="test.NG.BeforeGroup"/>
+<listEntry value="test.NG.TNG_0008_Parameters"/>
+<listEntry value="test.NG.TNG_07_BeforeafterClass"/>
+<listEntry value="test.NG.TNG_0004_Sequencing"/>
+<listEntry value="test.NG.ParallelExecution_02"/>
+<listEntry value="test.NG.ParallelExecution_01"/>
+<listEntry value="test.NG.TNG_0002_SecondTest"/>
+<listEntry value="test.test.NG.AjaxTest"/>
+<listEntry value="test.NG.TestSuite01"/>
+<listEntry value="test.NG.TNG_05_InvocationCounter"/>
+<listEntry value="test.test.NG.NewTest"/>
+<listEntry value="test.NG.TNG_04_Dependencies"/>
+<listEntry value="test.NG.TNG_03_Multipletest"/>
+<listEntry value="test.NG.TNG_06_BeforeAfterMethod"/>
+<listEntry value="test.test.NG.O0021_AssertVsVerify"/>
+<listEntry value="Listener_test.TestCases"/>
+<listEntry value="test.NG.TNG_02_FirstTest"/>
+<listEntry value="test.NG.Testsuite02"/>
+<listEntry value="test.NG.ExcelTest"/>
+<listEntry value="test.NG.Grouping"/>
+<listEntry value="Listener_test.ListenerTest"/>
+<listEntry value="DataDriven.DDTExcel"/>
+<listEntry value="test.NG.O0020_UnexpectedAlert"/>
+<listEntry value="test.NG.Crossbrowser"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

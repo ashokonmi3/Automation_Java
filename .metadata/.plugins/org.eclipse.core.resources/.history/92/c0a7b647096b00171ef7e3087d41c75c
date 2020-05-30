@@ -1,0 +1,42 @@
+
+package com.fitnese;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+//public class Division1 {
+//	  private double numerator, denominator;
+//	  
+//	  public void setNumerator(double numerator) {
+//	    this.numerator = numerator;
+//	  }
+//	  
+//	  public void setDenominator(double denominator) {
+//	    this.denominator = denominator;
+//	  }
+//	  
+//	  public double quotient() {
+//	    return numerator/denominator;
+//	  }
+//	} 
+public class Division1 {
+private String url;
+
+public void setUrl(String url) {
+  this.url = url;
+}
+
+//public void setDenominator(double denominator) {
+//  this.denominator = denominator;
+
+
+public String quotient() {
+	WebDriver driver= new FirefoxDriver(); //opens a blank URL
+	driver.navigate().to("https://login.yahoo.com/");
+	String URL1 = driver.getCurrentUrl();
+
+	return URL1;
+}
+} 
+
+

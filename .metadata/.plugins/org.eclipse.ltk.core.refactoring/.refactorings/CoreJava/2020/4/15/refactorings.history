@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CoreJava/src/corejavapackage/Datatype.jpg&apos; to &apos;01_Datatype.jpg&apos;" description="Rename resource &apos;Datatype.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/corejavapackage/Datatype.jpg" name="01_Datatype.jpg" stamp="1586443979869" updateReferences="true"/>
+</session>

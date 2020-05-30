@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;POMExample/src/test/00021f31-def6-4b43-8307-4724a00b3eab.png&apos; to &apos;Framework_Layput.png&apos;" description="Rename resource &apos;00021f31-def6-4b43-8307-4724a00b3eab.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/00021f31-def6-4b43-8307-4724a00b3eab.png" name="Framework_Layput.png" stamp="1590038835737" updateReferences="true"/>
+</session>

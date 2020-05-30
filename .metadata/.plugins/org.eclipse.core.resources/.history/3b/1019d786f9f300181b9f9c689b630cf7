@@ -1,0 +1,95 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+//public class elementLocators {
+//
+//	public static void main(String[] args) throws InterruptedException {
+//		// WebDriver driver = new FirefoxDriver();
+//
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("http://www.calculator.net/bmi-calculator.html");
+//		//
+//		Thread.sleep(3000);
+//		//
+//		// // finding element by id.
+//		driver.findElement(By.id("cage")).clear();
+//		Thread.sleep(3000);
+//		// //
+//		driver.findElement(By.id("cage")).sendKeys("45");
+//		Thread.sleep(3000);
+//
+//		// finding element by name.
+//		driver.findElement(By.name("cpound")).clear();
+//		Thread.sleep(3000);
+//		driver.findElement(By.name("cpound")).sendKeys("130");
+//		Thread.sleep(3000);
+//
+//		// by class name
+//		driver.findElement(By.id("cheightfeet")).clear();
+//		Thread.sleep(3000);
+//		// // // //
+//		driver.findElement(By.id("cheightfeet")).sendKeys("6");
+//		Thread.sleep(3000);
+//		driver.close();}}
+
+// ============================================
+
+public class elementLocators {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		// // // BY link text - no need of plugin .its visible element
+		driver.get("https://www.google.co.in/?gws_rd=ssl");
+		driver.findElement(By.linkText("Gmail")).click();
+		Thread.sleep(3000);
+		driver.close();
+	}
+}
+
+// *[@id="cpound"]
+
+// // driver.findElement(By.xpath("//*[@class='RveJvd snByac']").click();
+//
+// driver.findElement(By.xpath("//*[@id='identifierNext']/content/span")).click();
+// driver.findElement(By.xpath(".//*[@id='name_3_firstname']")).sendKeys("Gupta");
+
+// drive
+// *[@id="identifierNext"]/content/span
+// *[@id="identifierNext"]/content/span
+// *[@id="identifierNext"]/content/span
+// *[@id="identifierNext"]/content/span
+/*
+ * WebElement Email=driver.findElement(By.linkText("Gmail"));; Email.click();
+ */
+// to perform multiple operations
+
+// By partial link text
+// driver.findElement(By.partialLinkText("Gma")).click();
+
+// ======================================================
+// WebDriver driver = new ChromeDriver();
+
+// By Css selector
+
+// driver.get("http://demoqa.com/registration/");
+// driver.findElement(By.id("name_3_firstname")).sendKeys("Suraj");
+// driver.findElement(By.name("first_name")).sendKeys("Swati");
+// driver.findElement(By.cssSelector("#name_3_lastname")).sendKeys("Patil");
+// Thread.sleep(3000);
+//
+// driver.findElement(By.cssSelector(".gb_P")).click();
+// Thread.sleep(3000);
+// #pie_register > li:nth-child(2) > div > div > input:nth-child(2)
+// // *[@id="name_3_firstname"]
+// // By Xpath
+// driver.findElement(By.xpath(".//*[@id='name_3_firstname']")).sendKeys("Gupta");
+// // *[@id="name_3_firstname"]
+// Thread.sleep(3000);
+// // *[@id="pie_register"]/li[14]/div/input
+// driver.findElement(By.xpath("//*[@id=\"pie_register\"]/li[14]/div/input")).click();
+// Thread.sleep(3000);
+// driver.close();
+// }}

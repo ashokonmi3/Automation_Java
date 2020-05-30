@@ -1,0 +1,134 @@
+package selenium;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertDemo {
+	// //
+	public static void main(String[] args) throws NoAlertPresentException, InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+		driver.findElement(By.name("alert")).click();
+		Alert ale = driver.switchTo().alert();
+		Thread.sleep(5000);
+		String s = ale.getText();
+		System.out.println(s);
+		// clicks 'OK' button
+		// ale.dismiss();
+		ale.accept();
+
+		Thread.sleep(5000);
+		driver.quit();
+
+	}
+}
+// =========================
+
+// Confirmation box
+//
+// public class AlertDemo {
+// // //
+// public static void main(String[] args) throws NoAlertPresentException,
+// InterruptedException {
+// WebDriver driver = new ChromeDriver();
+// driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+// driver.findElement(By.name("confirmation")).click();
+// Alert ale = driver.switchTo().alert();
+// Thread.sleep(5000);
+// String s = ale.getText();
+// System.out.println(s);
+// // clicks 'OK' button
+// ale.dismiss();
+// Thread.sleep(5000);
+// driver.quit();
+//
+// }
+// }
+// =================
+
+// =======================
+
+// public class AlertDemo {
+// // //
+// public static void main(String[] args) throws NoAlertPresentException,
+// InterruptedException, AWTException {
+// WebDriver driver = new ChromeDriver();
+// driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+//
+// driver.findElement(By.name("prompt")).click();
+// Alert ale = driver.switchTo().alert();
+// Thread.sleep(2000);
+// // ale.sendKeys(arg0);
+// ale.sendKeys("sasfs");/// need to check why not typing
+// Thread.sleep(2000);
+//
+// // ale.dismiss();
+//
+// Thread.sleep(10000);
+// driver.quit();
+//
+// }
+// }
+
+// ======================
+// public class AlertDemo {
+// // //
+// public static void main(String[] args) throws NoAlertPresentException,
+// InterruptedException, AWTException {
+// WebDriver driver = new ChromeDriver();
+// driver.get("file:///C:/My/P/Study/Python_Selenium/files/Practice_handling_Alerts.html");
+//
+// ProfilesIni profile = new ProfilesIni();
+// FirefoxProfile myprofile = profile.getProfile("abcprofile");
+// DesiredCapabilities dser = DesiredCapabilities.chrome();
+// dser.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+// driver.findElement(By.name("prompt")).click();
+// // Alert ale = driver.switchTo().alert();
+// Thread.sleep(2000);
+//
+// Robot rb = new Robot();// java.awt
+// rb.keyPress(KeyEvent.VK_0);
+// rb.keyRelease(KeyEvent.VK_0);
+// rb.keyPress(KeyEvent.VK_1);
+// rb.keyRelease(KeyEvent.VK_0);
+// rb.keyPress(KeyEvent.VK_V);
+// rb.keyRelease(KeyEvent.VK_V);
+//
+// // // clicks 'OK' button
+// Thread.sleep(5000);
+// driver.quit();
+//
+// }
+// }
+// ======================
+// public class AlertDemo {
+//
+// public static void main(String[] args) throws InterruptedException {
+// fi
+// WebDriver driver = new ChromeDriver();
+// driver.get("http://toolsqa.com/automation-practice-switch-windows/");
+// String parentWindowHandle = driver.getWindowHandle();
+// System.out.println("Parent window's handle -> " + parentWindowHandle);
+// WebElement clickElement = driver.findElement(By.id("button1"));
+//
+// for (int i = 0; i < 3; i++) {
+// clickElement.click();
+// Thread.sleep(3000);
+// }
+//
+// Set<String> allWindowHandles = driver.getWindowHandles();
+//
+// for (String handle : allWindowHandles) {
+// System.out.println("Switching to window - > " + handle);
+// System.out.println("Navigating to google.com");
+// driver.switchTo().window(handle); // Switch to the desired window first and
+// then execute commands using
+// // driver
+// driver.get("http://google.com");
+// }
+//
+// }
+// }

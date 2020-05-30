@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="x" value="720"/>
+		<item key="y" value="145"/>
+		<item key="height" value="563"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="CucumberJavaJunit"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CucumberJavaJunit"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\My\users\eclipse-workspace\maven\pom.xml"/>
+			<item value="C:\My\users\eclipse-workspace\TNG1\src\testpackage"/>
+			<item value="C:\My\users\eclipse-workspace\CoreJava\src\corejavapackage\Java_06_Arrays.java"/>
+			<item value="C:\My\users\eclipse-workspace\MavenCucumber"/>
+			<item value="C:\Users\assharma\eclipse-workspace\maven\src\main\java"/>
+			<item value="C:\Users\assharma\eclipse-workspace\POM\src\test\LoginTest.java"/>
+			<item value="C:\Users\assharma\eclipse-workspace\maven\pom.xml"/>
+			<item value="C:\Users\assharma\eclipse-workspace\maven"/>
+			<item value="C:\Users\assharma\eclipse-workspace"/>
+			<item value="C:\Users\assharma\eclipse-workspace\TestNG\src\test\NG\Crossbrowser.java"/>
+			<item value="C:\git"/>
+			<item value="C:\Users\assharma\eclipse-workspace\TestNG"/>
+			<item value="C:\My\P\Study\Cucumber\cucumber-jvm-master\cucumber-jvm-master\examples\java-calculator"/>
+			<item value="C:\Users\assharma\eclipse-workspace\Cucumber\src\cucumberTest\FirstTest.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="CucumberFramework.CucumberFramework"/>
+			<item value="asdv.test"/>
+		</list>
+		<list key="groupId">
+			<item value="CucumberFramework"/>
+			<item value="asdv"/>
+		</list>
+		<list key="artifactId">
+			<item value="CucumberFramework"/>
+			<item value="test"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

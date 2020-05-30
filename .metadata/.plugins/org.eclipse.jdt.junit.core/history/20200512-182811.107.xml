@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Cuc_02_Before_After_Runner (1)" project="CucumberFramework" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberTest.Cuc_02_Before_After_Runner" time="0.004">
+    <testsuite name="Feature: Priority for test cases" time="0.004">
+      <testsuite name="Scenario: First scenario to test Order Hooks functionality" time="0.0">
+        <testcase name="Given this is the first step" classname="Scenario: First scenario to test Order Hooks functionality" time="0.0"/>
+        <testcase name="When this is the second step" classname="Scenario: First scenario to test Order Hooks functionality" time="0.0"/>
+        <testcase name="Then this is the third step" classname="Scenario: First scenario to test Order Hooks functionality" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Second scenario to test Order Hooks functionality" time="0.001">
+        <testcase name="Given this is the first step" classname="Scenario: Second scenario to test Order Hooks functionality" time="0.0"/>
+        <testcase name="When this is the second step" classname="Scenario: Second scenario to test Order Hooks functionality" time="0.001"/>
+        <testcase name="Then this is the third step" classname="Scenario: Second scenario to test Order Hooks functionality" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

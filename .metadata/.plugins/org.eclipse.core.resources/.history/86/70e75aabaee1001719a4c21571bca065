@@ -1,0 +1,32 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class handleButton {
+
+	public static void main(String[] args) {
+//		System.setProperty("webdriver.gecko.driver","G:\\Saftwares BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		
+		driver.get("https://login.yahoo.com/");
+		
+		
+		System.out.println(driver.findElement(By.id("login-signin")).isDisplayed());
+		System.out.println(driver.findElement(By.id("login-signin")).isEnabled());
+		
+		
+		driver.findElement(By.id("login-signin")).click();
+		System.out.println(driver.findElement(By.id("login-signin")).isEnabled());
+		
+		System.out.println(driver.findElement(By.id("login-signin")).getAttribute("type"));//submit
+		System.out.println(driver.findElement(By.id("login-signin")).getAttribute("name"));
+		System.out.println(driver.findElement(By.id("login-signin")).getAttribute("value"));//authtype
+		
+		
+		
+
+	}
+
+}

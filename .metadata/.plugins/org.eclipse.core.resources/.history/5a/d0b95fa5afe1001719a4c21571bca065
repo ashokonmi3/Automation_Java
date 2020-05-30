@@ -1,0 +1,23 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class handleCheckbox {
+
+	public static void main(String[] args) {
+		//System.setProperty("webdriver.gecko.driver","G:\\Saftwares BackUp\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("http://www.gcrit.com/build3/create_account.php?osCsid=47gtsrhe41613u5r3eqhgdbas7");
+		WebElement checkbox= driver.findElement(By.name("newsletter"));
+		System.out.println(checkbox.isDisplayed());
+		System.out.println(checkbox.isEnabled());
+		System.out.println(checkbox.isSelected());
+		checkbox.click();
+		System.out.println(checkbox.isSelected());
+	}
+
+}
