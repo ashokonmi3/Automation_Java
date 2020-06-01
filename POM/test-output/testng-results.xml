@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26810" started-at="2020-05-25T22:47:59 IST" finished-at="2020-05-25T22:48:26 IST">
+  <suite name="Default suite" duration-ms="24642" started-at="2020-05-31T21:19:25 IST" finished-at="2020-05-31T21:19:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26810" started-at="2020-05-25T22:47:59 IST" finished-at="2020-05-25T22:48:26 IST">
+    <test name="Default test" duration-ms="24642" started-at="2020-05-31T21:19:25 IST" finished-at="2020-05-31T21:19:50 IST">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@7b49cea0]" name="setup" is-config="true" duration-ms="5369" started-at="2020-05-25T22:47:59 IST" finished-at="2020-05-25T22:48:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@7b49cea0]" name="setup" is-config="true" duration-ms="3288" started-at="2020-05-31T21:19:25 IST" finished-at="2020-05-31T21:19:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Home_Page_Appear_inCorrect()[pri:1, instance:test.LoginTest@7b49cea0]" name="test_Home_Page_Appear_inCorrect" duration-ms="20374" started-at="2020-05-25T22:48:05 IST" finished-at="2020-05-25T22:48:25 IST">
+        <test-method status="PASS" signature="test_Home_Page_Appear_inCorrect()[pri:1, instance:test.LoginTest@7b49cea0]" name="test_Home_Page_Appear_inCorrect" duration-ms="20358" started-at="2020-05-31T21:19:28 IST" finished-at="2020-05-31T21:19:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Home_Page_Appear_inCorrect -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@7b49cea0]" name="teardown" is-config="true" duration-ms="1008" started-at="2020-05-25T22:48:25 IST" finished-at="2020-05-25T22:48:26 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@7b49cea0]" name="teardown" is-config="true" duration-ms="945" started-at="2020-05-31T21:19:49 IST" finished-at="2020-05-31T21:19:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

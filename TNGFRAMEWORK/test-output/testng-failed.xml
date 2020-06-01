@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [TestSuite]" parallel="tests">
-  <test thread-count="2" name="FirefoxTest(failed)" parallel="tests">
-    <parameter name="browser" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tng.framework.TNG_12_Crossbrowser">
+      <class name="tng.framework.TNG_04_Dependencies">
         <methods>
-          <include name="setup"/>
-          <include name="testParameterWithXML"/>
+          <include name="method3"/>
         </methods>
-      </class> <!-- tng.framework.TNG_12_Crossbrowser -->
+      </class> <!-- tng.framework.TNG_04_Dependencies -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
-  <test thread-count="2" name="EdgeTest(failed)" parallel="tests">
-    <parameter name="browser" value="Edge"/>
-    <classes>
-      <class name="tng.framework.TNG_12_Crossbrowser">
-        <methods>
-          <include name="setup"/>
-          <include name="testParameterWithXML"/>
-        </methods>
-      </class> <!-- tng.framework.TNG_12_Crossbrowser -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

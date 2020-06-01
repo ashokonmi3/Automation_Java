@@ -8,7 +8,7 @@ public class Login {
 	WebDriver driver;
 	By userName = By.name("username");
 	By password = By.name("password");
-	// driver.findElement(By.name("root").sendKeys(strUserName);
+	// driver.findElement(By.name("username").sendKeys(strUserName);
 	// driver.findElement(userName).sendKeys(strUserName);
 
 	By titleText = By.linkText("Google");
@@ -64,13 +64,13 @@ public class Login {
 	 * @param strPasword
 	 *                        password passed
 	 * 
-	 * @return nothin
+	 * @return nothing
 	 * 
 	 */
 
 	public void loginToWeb(String strUserName, String strPasword) {
 
-		// Fill user name ("mgr123","mgr123")
+		// Fill user name ("root","root")
 
 		this.setUserName(strUserName);
 

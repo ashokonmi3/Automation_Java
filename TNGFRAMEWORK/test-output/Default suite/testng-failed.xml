@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tng.framework.TNG_07_BeforeafterClass">
+      <class name="tng.framework.TNG_04_Dependencies">
         <methods>
-          <include name="verifyPageTitle2"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="method3"/>
         </methods>
-      </class> <!-- tng.framework.TNG_07_BeforeafterClass -->
+      </class> <!-- tng.framework.TNG_04_Dependencies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
