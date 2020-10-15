@@ -1,0 +1,9 @@
+[INFO] 2020-05-22 14:05:37,273 devpinoyLogger main - ----------starting the test case ---- 
+[INFO] 2020-05-22 14:05:41,732 devpinoyLogger main - ----------driver object is created ---- 
+[DEBUG] 2020-05-22 14:05:41,733 devpinoyLogger main - ----------starting the test case ---- 
+[INFO] 2020-05-22 14:05:46,459 devpinoyLogger main - This is an info message
+[WARN] 2020-05-22 14:05:46,459 devpinoyLogger main - This is an warn message
+[ERROR] 2020-05-22 14:05:46,460 devpinoyLogger main - This is an error message
+[FATAL] 2020-05-22 14:05:46,460 devpinoyLogger main - This is an fatal message
+[DEBUG] 2020-05-22 14:05:52,165 devpinoyLogger main - Alert text is Invalid Password
+[INFO] 2020-05-22 14:05:52,166 devpinoyLogger main - Handling error message. Test case passed.
