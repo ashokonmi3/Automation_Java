@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48" started-at="2018-03-02T13:56:55Z" finished-at="2018-03-02T13:56:55Z">
+  <suite name="Default suite" duration-ms="78" started-at="2020-08-15T12:13:33Z" finished-at="2020-08-15T12:13:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48" started-at="2018-03-02T13:56:55Z" finished-at="2018-03-02T13:56:55Z">
-      <class name="maven.test.MultipleTest">
-        <test-method status="PASS" signature="f1()[pri:0, instance:maven.test.MultipleTest@6a024a67]" name="f1" duration-ms="1" started-at="2018-03-02T19:26:55Z" finished-at="2018-03-02T19:26:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f1 -->
-      </class> <!-- maven.test.MultipleTest -->
+    <test name="Default test" duration-ms="78" started-at="2020-08-15T12:13:33Z" finished-at="2020-08-15T12:13:33Z">
       <class name="maven.test.DemoTest">
-        <test-method status="PASS" signature="testA()[pri:0, instance:maven.test.DemoTest@7921b0a2]" name="testA" duration-ms="18" started-at="2018-03-02T19:26:55Z" finished-at="2018-03-02T19:26:55Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:maven.test.DemoTest@4d49af10]" name="testA" duration-ms="28" started-at="2020-08-15T17:43:33Z" finished-at="2020-08-15T17:43:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:maven.test.DemoTest@7921b0a2]" name="testB" duration-ms="2" started-at="2018-03-02T19:26:55Z" finished-at="2018-03-02T19:26:55Z">
+        <test-method status="PASS" signature="testB()[pri:0, instance:maven.test.DemoTest@4d49af10]" name="testB" duration-ms="2" started-at="2020-08-15T17:43:33Z" finished-at="2020-08-15T17:43:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
-        <test-method status="PASS" signature="testC()[pri:0, instance:maven.test.DemoTest@7921b0a2]" name="testC" duration-ms="2" started-at="2018-03-02T19:26:55Z" finished-at="2018-03-02T19:26:55Z">
+        <test-method status="PASS" signature="testC()[pri:0, instance:maven.test.DemoTest@4d49af10]" name="testC" duration-ms="1" started-at="2020-08-15T17:43:33Z" finished-at="2020-08-15T17:43:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testC -->
       </class> <!-- maven.test.DemoTest -->
-      <class name="maven.test.TestNGTest">
-        <test-method status="PASS" signature="f2()[pri:0, instance:maven.test.TestNGTest@7ca48474]" name="f2" duration-ms="1" started-at="2018-03-02T19:26:55Z" finished-at="2018-03-02T19:26:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-      </class> <!-- maven.test.TestNGTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

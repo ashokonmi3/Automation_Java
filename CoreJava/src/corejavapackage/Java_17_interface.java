@@ -34,104 +34,201 @@ package corejavapackage;
  * 
  */
 
+// ==========================
+
+// interface webdriver {
+// void geturl(String s);
+//
+// void maximize();
+//
+// void minimize();
+//
+// void close();
+// }
+//
+////
+//////
+// class Google implements webdriver {
+// // Implement Callback's interface
+// public void geturl(int p) {
+// System.out.println("callback called with " + p);
+// }
+//
+// }
+//
+// class firefox implements webdriver {
+// ////// // // // Implement Callback's interface
+// //
+// public void geturl(String s) {
+// System.out.println("callback called with ");
+// }
+// }
+//
+////
+//////
+// class IE implements webdriver {
+// // Implement Callback's interface
+//
+// public void geturl(String s) {
+// System.out.println("callback called with " + p);
+// }
+// }
+//
+// class Interface {
+// public static void main(String args[]) {
+// webdriver ff = new firefox();
+// ff.geturl("abc");
+//
+// webdriver ch = new Google();
+//
+// // c = ob; // c now refers to AnotherClient object
+// ch.geturl("abc");
+// }
+// }
+
+// =========================
+// webdriver driver = new ChromeDriver();
+// webdriver a = new Firefoxdriver();
+// webdriver b = new IeDriver();
+//
+
+// ====================
+// interface Mywebsite {
+// void getAllAvailableFlights();
+// }
+//
+// class Airasia implements Mywebsite {
+// // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is available in europe ");
+// }
+// }
+//
+// class BritishAirways implements Mywebsite {
+// // // // // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is not available in europe");
+// //
+// }
+// }
+//
+// class Emirates implements Mywebsite {
+// // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is available in europe but via US ");
+// }
+// }
+//
+// class Java_17_interface {
+// public static void main(String args[]) {
+// Airasia c = new Airasia();
+// c.getAllAvailableFlights();
+// Mywebsite ob = new BritishAirways();
+// ob.getAllAvailableFlights();
+// Mywebsite emirateObject = new Emirates();
+// emirateObject.getAllAvailableFlights();
+// }
+// }
+// ===============================
+
 /*
  * Interface declaration interface <interface_name>{
  * 
  * // declare constant fields // declare methods that abstract // by default. }
  * 
  */
+
+// interface Mywebsite {
+// void getAllAvailableFlights();
+// }
 //
-//interface Mywebsite {
-//	void getAllAvailableFlights();
-//}
+// class Airasia implements Mywebsite {
+// // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is available in europe ");
+// }
+// }
 //
-//class Airasia implements Mywebsite {
-//	// Implement Callback's interface
-//	public void getAllAvailableFlights() {
-//		System.out.println("Flight is available in europe ");
-//	}
-//}
+// class BritishAirways implements Mywebsite {
+// // // // // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is not available in europe");
+// //
+// }
+// }
 //
-//class BritishAirways implements Mywebsite {
-//	// // // // Implement Callback's interface
-//	public void getAllAvailableFlights() {
-//		System.out.println("Flight is not available in europe");
-//		//
-//	}
-//}
+// class Emirates implements Mywebsite {
+// // Implement Callback's interface
+// public void getAllAvailableFlights() {
+// System.out.println("Flight is available in europe but via US ");
+// }
+// }
 //
-//class Emirates implements Mywebsite {
-//	// Implement Callback's interface
-//	public void getAllAvailableFlights() {
-//		System.out.println("Flight is available in europe but via US ");
-//	}
-//}
-//
-//class Java_17_interface {
-//	public static void main(String args[]) {
-//		Mywebsite c = new Airasia();
-//		c.getAllAvailableFlights();
-//		Mywebsite ob = new BritishAirways();
-//		ob.getAllAvailableFlights();
-//		Mywebsite emirateObject = new Emirates();
-//		emirateObject.getAllAvailableFlights();
-//	}
-//}
+// class Java_17_interface {
+// public static void main(String args[]) {
+// Airasia c = new Airasia();
+// c.getAllAvailableFlights();
+// Mywebsite ob = new BritishAirways();
+// ob.getAllAvailableFlights();
+// Mywebsite emirateObject = new Emirates();
+// emirateObject.getAllAvailableFlights();
+// }
+// }
 // ===============================
 
-//interface webdriver {
-//	void geturl(String s);
+// interface webdriver {
+// void geturl(String s);
 //
-//	void maximize();
+// void maximize();
 //
-//	void minimize();
+// void minimize();
 //
-//	void close();
-//}
-//
-////
-//class Google implements webdriver {
-//	// Implement Callback's interface
-//	public void geturl(int p) {
-//		System.out.println("callback called with " + p);
-//	}
-//
-//}
+// void close();
+// }
 //
 ////
-//class firefox implements webdriver {
-//	//// // // // Implement Callback's interface
+// class Google implements webdriver {
+// // Implement Callback's interface
+// public void geturl(int p) {
+// System.out.println("callback called with " + p);
+// }
 //
-//	public void geturl(String s) {
-//		System.out.println("callback called with ");
-//	}
-//}
+// }
+
+////
+// class firefox implements webdriver {
+// //// // // // Implement Callback's interface
+//
+// public void geturl(String s) {
+// System.out.println("callback called with ");
+// }
+// }
 //
 ////
-//class IE implements webdriver {
-//	// Implement Callback's interface
+// class IE implements webdriver {
+// // Implement Callback's interface
 //
-//	public void geturl(String s) {
-//		System.out.println("callback called with " + p);
-//	}
-//}
+// public void geturl(String s) {
+// System.out.println("callback called with " + p);
+// }
+// }
 //
 ////
 //////
-//class Interface {
-//	public static void main(String args[]) {
-//		webdriver ff = new firefox();
-//		ff.geturl("abc");
+// class Interface {
+// public static void main(String args[]) {
+// webdriver ff = new firefox();
+// ff.geturl("abc");
 //
-//		webdriver ch = new Google();
+// webdriver ch = new Google();
 //
-//		// c = ob; // c now refers to AnotherClient object
-//		ch. geturl("abc");
-//	}
-//}
+// // c = ob; // c now refers to AnotherClient object
+// ch. geturl("abc");
+// }
+// }
 
 // =====================
-//////G
+////// G
 // class webdriverobj {
 // webdriver driver = new ChromeDriver();
 // webdriver a = new Firefoxdriver();
@@ -149,43 +246,44 @@ package corejavapackage;
 
 // =======================
 
-//////// Interface can be extended
-//interface Ainterface {
-//	void meth1();
+// Interface can be extended
+// interface Ainterface {
+// void meth1();
 //
-//	void meth2();
-//}
+// void meth2();
+// }
 //
-//// B now includes meth1() and meth2() -- it adds meth3().
-//interface Binterface extends Ainterface {
-//	void meth3();
-//	// meth1()
-//	// meth2()
-//}
+////
+//////// B now includes meth1() and meth2() -- it adds meth3().
+// interface Binterface extends Ainterface {
+// void meth3();
+// // meth1()
+// // meth2()
+// }
+
+// This class must implement all of A and B
+// class MyClass implements Binterface {
+// public void meth1() {
+// System.out.println("Implement meth1().");
+// }
 //
-//// // This class must implement all of A and B
-//class MyClass implements Binterface {
-//	public void meth1() {
-//		System.out.println("Implement meth1().");
-//	}
+// public void meth2() {
+// System.out.println("Implement meth2().");
+// }
 //
-//	public void meth2() {
-//		System.out.println("Implement meth2().");
-//	}
+// public void meth3() {
+// System.out.println("Implement meth3().");
+// }
+// }
 //
-//	public void meth3() {
-//		System.out.println("Implement meth3().");
-//	}
-//}
-//
-//class Java_17_interface {
-//	public static void main(String arg[]) {
-//		MyClass ob = new MyClass(); // String s = new String()
-//		ob.meth1();
-//		ob.meth2();
-//		ob.meth3();
-//	}
-//}
+// class Java_17_interface {
+// public static void main(String arg[]) {
+// MyClass ob = new MyClass(); // String s = new String()
+// ob.meth1();
+// ob.meth2();
+// ob.meth3();
+// }
+// }
 
 // ====================
 
@@ -194,33 +292,93 @@ package corejavapackage;
  * interface extends multiple interfaces i.e. known as multiple inheritance.
  */
 //
-interface makeMytrip {
-	void print();
-}
+// interface makeMytrip {
+// void print();
+// }
+//
+// interface Goibibo {
+// void show();
+// }
+//
+// class airaisa implements makeMytrip, Goibibo {
+// public void print() {
+// System.out.println("Hello");
+// }
+//
+// public void show() {
+// System.out.println("Welcome");
+// }
+//
+// }
+//
+// class Java_17_interface {
+// public static void main(String args[]) {
+// airaisa obj = new airaisa();
+// obj.print();
+// obj.show();
+// }
+// }
+// ====================
+// We can not have 2 same name of function in 2 different interface
 
-interface Goibibo {
-	void show();
-}
-
-class airaisa implements makeMytrip, Goibibo {
-	public void print() {
-		System.out.println("Hello");
-	}
-
-	public void show() {
-		System.out.println("Welcome");
-	}
-
-}
-
-class Java_17_interface {
-	public static void main(String args[]) {
-		airaisa obj = new airaisa();
-		obj.print();
-		obj.show();
-	}
-}
-
+// interface makeMytrip {
+// void show();
+// }
+//
+// interface Goibibo {
+// int show();
+//
+// }
+//
+// class airaisa implements makeMytrip, Goibibo {
+// public void show() {
+// System.out.println("Hello");
+// // return 1;
+// }
+//
+// public int show() {
+// System.out.println("Hello");
+// return 1;
+// }
+//
+// }
+//
+// class Java_17_interface {
+// public static void main(String args[]) {
+// airaisa obj = new airaisa();
+// obj.show();
+// }
+// }
+// ======================
+// interface makeMytrip {
+// void show();
+// }
+//
+// interface Goibibo {
+// void show1();
+//
+// void print();
+//
+// }
+//
+// class airaisa implements makeMytrip, Goibibo {
+// public void show() {
+// System.out.println("1 paramter");
+// }
+//
+// public void print() {
+// System.out.println("No parameter");
+// }
+//
+// }
+//
+// class Java_17_interface {
+// public static void main(String args[]) {
+// airaisa obj = new airaisa();
+// obj.show();
+//
+// }
+// }
 // ======================================
 /*
  * As we have explained in the inheritance chapter, multiple inheritance is not

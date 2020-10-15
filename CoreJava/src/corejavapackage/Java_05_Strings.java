@@ -28,8 +28,8 @@ package corejavapackage;
 // String e = new String("abc");
 // String f = new String("abc");
 // System.out.println(f == e);
-// System.out.println("cequals(d) " + e.equals(f));// false
-// System.out.println(a.equalsIgnoreCase(d)); // true
+// System.out.println("e equals(f) " + e.equals(f));// false
+// System.out.println("a.equalsIgnoreCase(d) " + a.equalsIgnoreCase(d)); // true
 //
 // }
 // }
@@ -67,14 +67,18 @@ package corejavapackage;
 // }
 
 //// =============================================================
-
+// java
+// 0123
 // public class Java_05_Strings {
 // public static void main(String[] args) {
 // String str1 = "abcdfg@gmail.com";
 // String str2 = " Java";
-// System.out.println(str1.length()); // 8 (finding length of the String)
-// System.out.println(str1.contains("yahoo"));// false (finding sub string)
-// System.out.println(str1.contains("gmail"));// true (finding sub string)
+// System.out.println("Length of string : " + str1.length()); // 8 (finding
+//// length of the String)
+// System.out.println("String contains Yahoo: " + str1.contains("yahoo"));//
+//// false (finding sub string)
+// System.out.println("String contains gmail : " + str1.contains("gmail"));//
+//// true (finding sub string)
 // char result = str1.charAt(4);
 // System.out.println(result); // S
 // str1 = str1.concat(str2);
@@ -82,7 +86,6 @@ package corejavapackage;
 //
 // }
 // }
-
 // ==============================
 // Returning Sub Strings
 // substring(staring index, ending index)
@@ -102,7 +105,7 @@ package corejavapackage;
 // }
 // }
 // =============================================================
-//
+
 // public class Java_05_Strings {
 // public static void main(String[] args) {
 // String str1 = "selenium";
@@ -119,6 +122,18 @@ package corejavapackage;
 // public static void main(String[] args) {
 // String str1 = new String("selenium");
 // if (str1 == "selenium") {
+// System.out.println("found"); // false
+// } else {
+// System.out.println("not found"); // false
+// }
+// }
+// }
+// ==================
+
+// public class Java_05_Strings {
+// public static void main(String[] args) {
+// String str1 = new String("selenium");
+// if (str1.equals("selenium")) {
 // System.out.println("found"); // false
 // } else {
 // System.out.println("not found"); // false
@@ -152,8 +167,8 @@ package corejavapackage;
 // System.out.println(str3.trim());
 // }
 // }
-
-// ---------------------------------------------
+////
+//// ---------------------------------------------
 // ------------------------------------------------
 // 10) endsWith Method (ends with specified suffix)
 ////
@@ -220,7 +235,7 @@ package corejavapackage;
 // public static void main(String[] args) {
 // StringBuilder s2 = new StringBuilder("java selenium is awsome");
 // System.out.println(s2);// true
-// s2.insert(1, "AAAA");
+// s2.insert(1, "AAAA");// insert and increase the length of string
 // System.out.println("StringBuilder: " + s2);
 //
 // }
@@ -232,12 +247,35 @@ package corejavapackage;
 // public static void main(String[] args) {
 // StringBuilder s2 = new StringBuilder("java selenium is awsome");
 // System.out.println(s2);// true
-// s2.replace(0, 5, "AAAA");
+// s2.replace(0, 4, "AAAA");
 // System.out.println("StringBuilder: " + s2);
 //
 // }
 // }
-
+// =======================
+// class Java_05_Strings {
+// //
+// public static void main(String[] args) {
+// String s2 = new String("java selenium is awsome");
+// int count = 0;
+// for (int i = 0; i < s2.length(); i++) {
+// if (s2.charAt(i) == ' ')
+// count = ++count;
+// }
+// System.out.println(count);// true
+//
+// }
+// }
+// ========================
+// class Java_05_Strings {
+// public static void main(String[] args) {
+// String s2 = new String("java selenium is awsome");
+// int count = 0;
+// String s = s2.replaceAll(" ", "");
+// System.out.println(s);// true
+//
+// }
+// }
 // =================================
 // if you change string a lot (add, remove, change, replace characters)
 // because it's more efficient. If you do simply operation you should use
@@ -259,18 +297,17 @@ package corejavapackage;
 // If a string can change, and will be accessed from multiple threads, use a
 // StringBuffer because StringBuffer is synchronous so you have thread-safety.
 // helloworld
-/*
- * Assignements 1)Write a Java program to get the character at the given index
- * within the String. 2.Write a Java program to get the character ( at the given
- * index within the String. 3) Write a java program to count a character of a
- * String. 4)Write a java program to compare two strings . 5) Write a Java
- * program to concatenate a given string to the end of another string. 6) Write
- * a Java program to test if a given string contains the specified sequence of
- * char values. 7) Write a java program to get the length of a given string.
- * 8)Write a Java program to convert all the characters in a string to
- * lowercase. 9) Write a Java program to convert all the characters in a string
- * to uppercase 10) Write a program to reverse a string
- */
+
+// Assignements 1)Write a Java program to get the character at the given index
+// within the String. 2.Write a Java program to get the character ( at the given
+// index within the String. 3) Write a java program to count a character of a
+// String. 4)Write a java program to compare two strings . 5) Write a Java
+// program to concatenate a given string to the end of another string. 6) Write
+// a Java program to test if a given string contains the specified sequence of
+// char values. 7) Write a java program to get the length of a given string.
+// 8)Write a Java program to convert all the characters in a string to
+// lowercase. 9) Write a Java program to convert all the characters in a string
+// to uppercase 10) Write a program to reverse a string
 
 // public class O5JavaStrings {
 // public static void main(String args[]) {

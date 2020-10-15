@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tng.framework.TNG_04_Dependencies">
+      <class name="tng.framework.TNG_13_ListenerTestCases">
         <methods>
-          <include name="method3"/>
+          <include name="TestToFail"/>
         </methods>
-      </class> <!-- tng.framework.TNG_04_Dependencies -->
+      </class> <!-- tng.framework.TNG_13_ListenerTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

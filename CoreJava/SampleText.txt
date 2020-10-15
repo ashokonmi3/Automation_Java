@@ -1,0 +1,85 @@
+CONTACT 8 Ivana Nekhody st., 03141, Kyiv,
+Ukraine
+E-mail:  me.espirit@gmail.com
+Website:
+https://www.linkedin.com/in/oleksandrmudruk/
+Phone:  +38 097 585 88 77
+QUALIFICATIONS
+• Knowledge of software development and testing cycles and processes.
+• Understanding of OOP principles
+• Understanding project management principles, techniques and tools
+• Experience in Testcase, Usecase and Requirements management.
+• Experience in Functional, Smoke, GUI and Regression testing.
+• Knowledge of Java, Python, SQL; basic knowledge of Bash.
+• Developing functional tests with Selenium, Serenity, Selenide; BDD with JBehave
+• Experience in testing web services with REST Assured, SoapUI, JAXB
+• Experience in configuring CI for running autotests
+• Experience in using PostgreSQL and MySQL with JDBC
+• Experience with basic tools such as bug tracking systems (YouTrack, Jira, PLM), test
+case management software (TestRail, TestLink), VCS (Git, Perforce), code review tools
+(Gerrit, GitLab, GitHub), CI system(TeamCity, Jenkins)
+WORK
+EXPERIENCE
+EPAM Systems November 2017 — Present
+Amadeus February 2017 — October 2017
+Samsung July 2012 — January 2017
+Automation QA Engineer
+Web project
+planning and estimating automation testing activities 
+developing a testing framework from scratch 
+creating functional tests for web project (Java: Serenity, Selenide, JBehave, Maven,
+REST Assured)
+integrating test scripts with CI/CD tools (Jenkins)
+functional, regression, smoke, GUI testing
+update/fix/refactor existing framework
+code review
+Automation QA Engineer
+Web project
+creating functional tests for web project (Java: Gradle, Selenium, TestNG)
+creating functional tests for web services (SoapUI, Java: Gradle, JAXB, TestNG)
+functional, regression, smoke, GUI testing;
+manual testing, bug reporting and verification
+creating and supporting tests cases/suites/checklists;
+update/fix existing functional autotest
+code review
+QA Engineer, Automation QA Engineer
+Automation projects
+creating functional tests for web project (Java: Maven, Selenium, TestNG; Python:
+pytest, Selenium)
+Oleksandr Mudruk
+Oleksandr Mudruk 1
+QA TestLab March 2012 — June 2012
+creating tests for REST API (Python: unittest, requests)
+creating an application for testing images using databases (Python: OpenCV,
+psycopg2)
+creating functional/performance test for android native/3d application
+creating functional autotests and adding reporting module to existing middleware
+project to automate routine
+Projects on Mobile (SHealth 3.0, SHealth 2.5, Kids Home, KidsHome3D, Tizen)
+communicating with HQ/stakeholder
+analyzing and reviewing requirements  
+creating and supporting tests cases/suites/checklists
+creating performance autotest and update/fix existing functional autotest
+automating daily routines
+functional, regression, smoke, GUI testing
+Project on Windows
+creating and supporting tests cases/suites/test reports;
+bug reporting and verification; 
+functional, regression, smoke, performance, GUI testing;
+analyzing and reviewing requirements
+QA Intern
+bug reporting and verification; 
+functional, regression, smoke, GUI testing;
+EDUCATION Computer Systems and Network September 2006 — March 2012
+QA Selenium July, 8, 2015 — August, 20, 2015
+National Technical University of Ukraine 'Kyiv Polytechnic Institute'
+Obtained a Specialist degree
+BIONIC University
+Obtained knowledge about Web Automation
+CERTIFICATION ISTQB Certified Tester, Foundation Level (2018)
+LANGUAGE
+SKILLS
+English - B2   
+Ukrainian - native 
+Russian - fluent
+Oleksandr Mudruk 2

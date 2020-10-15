@@ -3,8 +3,8 @@
   <test name="Test">
   <groups>
   <run>
-     <include name = "real" />
-         <include name = "dummy" />
+     <include name = "sanity" />
+         <include name = "regression" />
     
   </run>
   </groups>

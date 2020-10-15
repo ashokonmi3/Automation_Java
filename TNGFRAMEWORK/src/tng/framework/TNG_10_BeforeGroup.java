@@ -5,35 +5,35 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class TNG_10_BeforeGroup {
-	@BeforeGroups(value = "real")
+	@BeforeGroups(value = "sanity")
 	public void beforeGroupsExampleReal() {
-		System.out.println("@BeforeGroups for real");
+		System.out.println("@BeforeGroups for sanity");
 	}
 
-	@BeforeGroups(value = "dummy")
+	@BeforeGroups(value = "regression")
 	public void beforeGroupsExampleDummy() {
-		System.out.println("@BeforeGroups for Dummy");
+		System.out.println("@BeforeGroups for regression");
 	}
 
 	/*
 	 * after method and after class blocks
 	 */
-	@Test(groups = "dummy")
+	@Test(groups = "sanity")
 	public void openDummy() {
-		System.out.println("@Test dummy");
+		System.out.println("@Test sanity");
 	}
 
-	@Test(groups = "real")
+	@Test(groups = "regression")
 	public void openReal() {
-		System.out.println("@Test Real");
+		System.out.println("@Test regression");
 	}
 
-	@AfterGroups(value = "real")
+	@AfterGroups(value = "sanity")
 	public void afterGroupsExampleReal() {
 		System.out.println("@AfterGroups for real");
 	}
 
-	@AfterGroups(value = "dummy")
+	@AfterGroups(value = "regression")
 	public void afterGroupsExampleDummy() {
 		System.out.println("@AfterGroups for Dummy");
 	}

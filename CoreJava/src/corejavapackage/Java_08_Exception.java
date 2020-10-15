@@ -36,6 +36,7 @@ package corejavapackage;
 // String s = "123";
 // int y = Integer.parseInt(s);
 // System.out.println(y);// NumberFormatException }
+//
 // }
 // }
 // =============================
@@ -44,6 +45,8 @@ package corejavapackage;
 // String s = "abc123";
 // int y = Integer.parseInt(s);
 // System.out.println(y);// NumberFormatException }
+// System.out.println("Java exception");
+//
 // }
 // }
 
@@ -53,6 +56,8 @@ package corejavapackage;
 // int a[] = new int[5];
 // a[10] = 100;
 // System.out.println(a[10]);
+// System.out.println("Java exception");
+//
 // }
 // }
 // ==========================
@@ -145,12 +150,34 @@ package corejavapackage;
 // public static void main(String[] args) {
 // try {
 // int data = 25 / 0;
+// // db= connect("server", 'username' 'pass')
 // System.out.println(data);
 // } catch (Exception e) {
 // System.out.println("error");
 //
 // } finally {
-// System.out.println("finally block is always executed");
+// System.out.println("security threat closing connection");
+// // closeing datbase connection
+// }
+//
+// System.out.println("rest of the code...");
+// System.out.println("rest of the code...");
+//
+// }
+// }
+// ========================
+// public class Java_08_Exception {
+// public static void main(String[] args) {
+// try {
+// int arr[] = new int[5];
+// arr[10] = 20;
+// // db= connect("server", 'username' 'pass')
+// } catch (ArithmeticException e) {
+// System.out.println("error");
+//
+// } finally {
+// System.out.println("security threat closing connection");
+// // closeing datbase connection
 // }
 //
 // System.out.println("rest of the code...");
@@ -174,8 +201,10 @@ package corejavapackage;
 // String[] students = { "Harry", "Paul" };
 // System.out.println(students[5]);
 // } catch (Exception e) {
+// System.out.println("catch");
 // return 10;
 // } finally {
+// System.out.println("finally");
 // return 20;
 // }
 // }
@@ -189,7 +218,6 @@ package corejavapackage;
 // try {
 // System.out.println("Try block : open resource 1");
 // System.out.println("Try block : open resource 2");
-//
 // System.out.println("in try : " + name.length());
 // System.out.println("Try block : close resources");
 // } finally {
@@ -236,7 +264,7 @@ package corejavapackage;
 // validate(10);
 // } catch (ArithmeticException e) { //
 // e.printStackTrace();
-// System.out.println(e);
+// // System.out.println(e);
 //
 // System.out.println("welcome to exception");
 // }
@@ -304,38 +332,54 @@ package corejavapackage;
 // public static void main(String[] args) throws InterruptedException {
 // System.out.println("Hello java");
 // Thread.sleep(10000);
+// Thread.currentThread().interrupt();
 // System.out.println("Hello selenium");
 // }
 // }
-
+// ====================
+// class MyClass extends Thread {
+// public void run() {
+// try {
+// for (int i = 0; i < 5; i++) {
+// System.out.println("Child Thread executing");
+//
+// // Here current threads goes to sleeping state
+// // Another thread gets the chance to execute
+// Thread.sleep(1000);
+// }
+// } catch (InterruptedException e) {
+// System.out.println("InterruptedException occur");
+// }
+// }
+// }
+//
+// class Java_08_Exception {
+// public static void main(String[] args) throws InterruptedException {
+// MyClass thread = new MyClass();
+// thread.start();
+//
+// // main thread calls interrupt() method on
+// // child thread
+// thread.interrupt();
+//
+// System.out.println("Main thread execution completes");
+// }
+// }
 // =====================
-// class O8Exception {
+// class Java_08_Exception {
 // public void finalize() {
 // System.out.println("finalize called");
 // }
 //
 // public static void main(String[] args) {
-// O8Exception f1 = new O8Exception();
-// O8Exception f2 = new O8Exception();
+// Java_08_Exception f1 = new Java_08_Exception();
+// Java_08_Exception f2 = new Java_08_Exception();
 // f1 = null;
 // f2 = null;
 // System.gc();
 // }
 // }
 // =====================
-
-// class O8Exception {
-// public static void main(String args[]){
-// int i = 0, j=10;
-// try{
-// j /=i;
-// }
-// System.out.print("Divide by Zero! ");
-// catch(Exception e){
-// System.out.print("error");
-// }
-// }
-// }
 
 /*
  * You can't enter code between try and catch clause. Here line 7 causes the

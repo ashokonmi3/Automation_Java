@@ -28,7 +28,7 @@ public class LoginTest {
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		driver.get("file:///C:/My/Study/javaselenium/webpages/login.html");
+		driver.get("file:///D:/Study/javaselenium/webpages/login.html");
 
 	}
 
@@ -44,17 +44,17 @@ public class LoginTest {
 
 		String loginPageTitle = objLogin.getLoginTitle();
 		System.out.println(loginPageTitle);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		Assert.assertTrue(loginPageTitle.toLowerCase().contains("login paget"));
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		// login to application
 
 		objLogin.loginToWeb("root", "root");
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		// go the next page
 

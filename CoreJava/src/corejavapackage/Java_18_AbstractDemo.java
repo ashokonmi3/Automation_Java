@@ -40,125 +40,142 @@ package corejavapackage;
 //
 //	}
 //}
-//
+
 // ===========================================
 // Using abstract methods and classes.
-//abstract class Figure {
-//	double dim1;
-//	double dim2;
-//
-//	Figure(double a, double b) {
-//		dim1 = a;
-//		dim2 = b;
-//	}
-//
-//	// area is now an abstract method
-//	abstract double area();
-//
-//}
-//
-//class Rectangle extends Figure {
-//	Rectangle(double a, double b) {
-//		super(a, b);
-//	}
-//
-//	// override area for rectangle
-//	double area() {
-//		System.out.println("Inside Area for Rectangle.");
-//		return dim1 * dim2;
-//	}
-//}
-//
-////
-//class Triangle extends Figure {
-//	Triangle(double a, double b) {
-//		super(a, b);
-//	}
-//
-//	// override area for right triangle
-//	double area() {
-//		System.out.println("Inside Area for Triangle.");
-//		return dim1 * dim2 / 2;
-//	}
-//}
-//
-//class Java_18_AbstractDemo {
-//	public static void main(String args[]) {
-//		// Figure f = new Figure(10, 10); // illegal now
-//		Rectangle r = new Rectangle(9, 5);
-//		Triangle t = new Triangle(10, 8);
-//		Figure figref; // this is OK, no object is created
-//		figref = r;
-//		System.out.println("Area is " + figref.area());
-//		figref = t;
-//		System.out.println("Area is " + figref.area());
-//	}
-//}
+abstract class Figure {
+	double dim1;
+	double dim2;
 
-// ===============================================
-//abstract class Shape {
-//	abstract void draw();
-//}
-//
-////
-////// In real scenario, implementation is provided by others i.e. unknown by
-////// end user
-//class Rectangle extends Shape {
-//	void draw() {
-//		System.out.println("drawing rectangle");
-//	}
-//}
-//
-//class Circle1 extends Shape {
-//	void draw() {
-//		System.out.println("drawing circle");
-//	}
-//}
-//
-//// In real scenario, method is called by programmer or user
-//class Java_18_AbstractDemo {
-//	public static void main(String args[]) {
-//		Shape s = new Circle1();// In a real scenario, object is provided through
-//		// method, e.g., getShape()
-//		// method
-//		s.draw();
-//		Shape r = new Rectangle();
-//		r.draw();
-//	}
-//}
+	Figure(double a, double b) {
+		dim1 = a;
+		dim2 = b;
+	}
 
-// ==================================
-//
-abstract class BankBase {
-	abstract int getRateOfInterest();
+	// area is now an abstract method
+	abstract double area();
 
-	void callmetoo() {
-		System.out.println("This is a concrete method.");
+}
+
+class Rectangle extends Figure {
+	Rectangle(double a, double b) {
+		super(a, b);
+	}
+
+	// override area for rectangle
+	double area() {
+		System.out.println("Inside Area for Rectangle.");
+		return dim1 * dim2;
 	}
 }
 
-class SBIabs extends BankBase {
-	int getRateOfInterest() {
-		int roi = 7;
-		// return 7;
-		return roi;
+//
+class Triangle extends Figure {
+	Triangle(double a, double b) {
+		super(a, b);
 	}
-}
 
-class PNB123 extends BankBase {
-	int getRateOfInterest() {
-		return 8;
+	// override area for right triangle
+	double area() {
+		System.out.println("Inside Area for Triangle.");
+		return dim1 * dim2 / 2;
 	}
 }
 
 class Java_18_AbstractDemo {
 	public static void main(String args[]) {
-		BankBase b;
-		b = new SBIabs();
-		System.out.println("Rate of Interest is: " + b.getRateOfInterest() + " %");
-		b = new PNB123();
-		System.out.println("Rate of Interest is: " + b.getRateOfInterest() + " %");
+		// Figure f = new Figure(10, 10); // illegal now
+		Rectangle r = new Rectangle(9, 5);
+		Triangle t = new Triangle(10, 8);
+		Figure figref; // this is OK, no object is created
+		figref = r;
+		System.out.println("Area is " + figref.area());
+		figref = t;
+		System.out.println("Area is " + figref.area());
 	}
 }
+
+// ===============================================
+// abstract class Shape {
+// abstract void draw();
+// }
+//
+//// In real scenario, implementation is provided by others i.e. unknown by
+//// end user
+// class Rectangle extends Shape {
+// void draw() {
+// System.out.println("drawing rectangle");
+// }
+// }
+//
+////
+// class Circle1 extends Shape {
+// void draw() {
+// System.out.println("drawing circle");
+// }
+// }
+//
+////
+////// In real scenario, method is called by programmer or user
+// class Java_18_AbstractDemo {
+// public static void main(String args[]) {
+// Shape s = new Circle1();// In a real scenario, object is provided through
+// // method, e.g., getShape()
+// // method
+// s.draw();
+// Shape r = new Rectangle();
+// r.draw();
+// }
+// }
+
+// ==================================
+//
+// abstract class BankBase {
+// abstract int getRateOfInterest();
+//
+// int gethouseloanrate() { // this function can also be overriden
+// System.out.println("This is a concrete method.");
+// int roi = 7;
+// // return 7;
+// return roi;
+// }
+// }
+//
+// class SBIabs extends BankBase {
+// int getRateOfInterest() {
+// int roi = 7;
+// // return 7;
+// return roi;
+// }
+//
+// int gethouseloanrate() {
+// System.out.println("This is a concrete method.");
+// int roi = 18;
+// // return 7;
+// return roi;
+// }
+// }
+//
+// class PNB123 extends BankBase {
+// int getRateOfInterest() {
+// return 8;
+// }
+// }
+//
+// class Java_18_AbstractDemo {
+// public static void main(String args[]) {
+// BankBase b;
+// b = new SBIabs();
+// System.out.println("Rate of Interest is: " + b.getRateOfInterest() + " %");
+// System.out.println("SBI house loan Rate of Interest is: " +
+// b.gethouseloanrate() + " %");
+//
+// b = new PNB123();
+// System.out.println("Rate of Interest is: " + b.getRateOfInterest() + " %");
+// System.out.println("PNB houseloan rate of Interest is: " +
+// b.gethouseloanrate() + " %");
+//
+// }
+// }
 
 // ==============================

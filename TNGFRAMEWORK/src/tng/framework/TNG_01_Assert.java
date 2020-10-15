@@ -10,8 +10,9 @@ import org.testng.asserts.SoftAssert;
 // =========================
 // assertEqual(a,b) a==b
 // assertNotEqual(a,b) a!=b
-// assertTrue(x) bool(x)is True
+// assertTrue(x) bool(x)is True (10>5)
 // assertFalse(x) bool(x)is False
+// assertFalse(before==after)
 //// assertIsNone(x) x is None
 // assertIsNotNone(x) x is not None assertIn(a,b)a in b
 // assertNotIn(a,b) a not in b
@@ -49,10 +50,10 @@ import org.testng.asserts.SoftAssert;
 //public class TNG_01_Assert {
 //	@Test
 //	public void testAssertFalse() {
-//		Assert.assertFalse(2 > 30, "comparing 2 greater than 30");// message will be
+//		Assert.assertFalse(2 > 30, "comparing 2 greater than 30");// message will
+//		// be
 //		// printed only when fails
 //		System.out.println("this print will be executed as condition results");
-//
 //		Assert.assertFalse(true == false);
 //		System.out.println("this will not be executed as condition results in true");
 //	}
@@ -66,7 +67,13 @@ import org.testng.asserts.SoftAssert;
 //public class TNG_01_Assert {
 //	@Test
 //	public void testFail() {
-//		Assert.fail("test purpose", new NoSuchFrameException("user exception"));
+//		int a = 10;
+//		if (a == 10) {
+//			Assert.fail("test purpose", new NoSuchFrameException("user exception"));
+//		} else {
+//			System.out.println("a is not 10");
+//		}
+//
 //	}
 //}
 
@@ -97,7 +104,7 @@ import org.testng.asserts.SoftAssert;
 //	}
 //}
 // ================================
-//
+
 //public class TNG_01_Assert {
 //	@Test
 //	public void testassert() {

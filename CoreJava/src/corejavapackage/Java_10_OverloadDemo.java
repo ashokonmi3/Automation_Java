@@ -1,5 +1,23 @@
 package corejavapackage;
 
+//class A {
+//	int x;
+//	double y;
+//	String s;
+//	boolean b;
+//}
+//
+//class Java_10_OverloadDemo {
+//	public static void main(String[] args) {
+//		A ob = new A();
+//		System.out.println("Result of ob.x: " + ob.x);
+//		System.out.println("Result of ob.y: " + ob.y);
+//		System.out.println("Result of ob.s: " + ob.s);
+//		System.out.println("Result of ob.b: " + ob.b);
+//
+//	}
+//}
+// ==============================
 //class Overload {
 //	void test() {
 //		System.out.println("No parameters");
@@ -76,7 +94,6 @@ package corejavapackage;
  * Here, Box defines three constructors to initialize the dimensions of a box
  * various ways.
  */
-////
 //class BoxOverload {
 //	double width;
 //	double height;
@@ -134,7 +151,7 @@ package corejavapackage;
 //	}
 //
 //	boolean equalTo(Test o) {// return true if o is equal to the invoking object
-//		if (a == o.a && b == o.b)// ob2.a==ob1.a && ob2.b==ob1.b
+//		if (a == o.a && b == o.b)// ob1.a==ob2.a && ob1.b==ob2.b
 //
 //			return true;
 //		else
@@ -203,6 +220,7 @@ class Java_10_OverloadDemo {
 		BoxOverload mybox2 = new BoxOverload();
 		BoxOverload mycube = new BoxOverload(7);
 		BoxOverload myclone = new BoxOverload(mybox1); // create copy of mybox1
+		BoxOverload mycube1 = new BoxOverload(mycube);
 		double vol; // get volumeof first box
 		vol = mybox1.volume();
 		System.out.println("Volume of mybox1 is " + vol); // get volume of second box

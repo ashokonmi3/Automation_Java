@@ -1,5 +1,7 @@
 package corejavapackage;
 
+import java.util.Scanner;
+
 /*
  * This is to demonstrate the multiline comments how comments can be written
  */
@@ -10,16 +12,17 @@ package corejavapackage;
 // date : 23 April 2019
 // place: bangalore
 //
-// public class Java_01_Variable {
+//public class Java_01_Variable {
 //
-// public static void main(String[] args) {
-// System.out.println("Welcome to selenium");
-// System.out.println("Welcome to java");
-// System.out.println("Welcome to QA Class");
-// System.out.println("Welcome to Ashok's class");
+//	public static void main(String[] args) {// this is comment
+//		System.out.println("Welcome to selenium");
+//		System.out.println("Welcome to java");
+//		System.out.println("Welcome to QA Class");
+//		System.out.println("Welcome to Ashok's class");
 //
-// }
-// }
+//	}
+//}
+
 //// ctrl+/ comment the code
 
 // Public-
@@ -37,134 +40,134 @@ package corejavapackage;
 
 // =====================
 
-// public class Java_01_Variable {
+//public class Java_01_Variable {
 //
-// public static void main(String[] args) {
-// int a; // Declaration
-// a = 10; // Initialization
-// System.out.println(a);
-// int b; // Declaration
-// b = 100; // Initialization
-// System.out.println(b);
-// int c = 100; // Initialization
-// System.out.println(c);
+//	public static void main(String[] args) {
+//		int a; // Declaration
+//		a = 10; // Initialization
+//		System.out.println(a);
+//		int b; // Declaration
+//		b = 100; // Initialization
+//		System.out.println(b);
+//		int c = 100; // Initialization
+//		System.out.println(c);
 //
-// }
-// }
+//	}
+//}
 
 //// ===========================
 //
-// public class Java_01_Variable {
-// public static void main(String[] args) {
-// int a = 10;
-// System.out.println(a);
-// a = a + 10;
-// System.out.println(a);
-// int b = a;
-// System.out.println(b);
-// }
-// }
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
+//		int a = 10;
+//		System.out.println(a);
+//		a = a + 10;
+//		System.out.println(a);
+//		int b = a;
+//		System.out.println(b);
+//	}
+//}
 
 // ========================
 // Declaration of multiple variables in a statement
-// public class Java_01_Variable {
-// public static void main(String[] args) {
-// int a, b, c, d;
-// a = 10;
-// b = 20;
-// c = 30;
-// d = 100;
-// System.out.println(a);
-// System.out.println(b);
-// System.out.println(c);
-// System.out.println(d);
-// }
-// }
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
+//		int a, b, c, d;
+//		a = 10;
+//		b = 20;
+//		c = 30;
+//		d = 100;
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		System.out.println(d);
+//	}
+//}
 // ===================================
 // // // Declaration of multiple variable and Assigning values.
-// public class Java_01_Variable {
-// public static void main(String[] args) {
-// int i = 50;// 4 byte by default
-// long l = 333333;// 8 byte
-// float f = 10.0f;// 4 byte
-// double d = 92.90909;// 8 byte by default
-// char c = 'A';
-// String s = "selenium";
-// System.out.println(i);
-// System.out.println(l);
-// System.out.println(f);
-// System.out.println(d);
-// System.out.println(c);
-// System.out.println(s);
-// }
-// }
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
+//		int i = 50;// 4 byte by default 2147483647
+//		long l = 333333;// 8 byte
+//		float f = 10.0f;// 4 byte 1231231.0
+//		double d = 92.90909;// 8 byte by default 123412313131312131.909
+//		char c = 'A';
+//		String s = "selenium";
+//		System.out.println(i);
+//		System.out.println(l);
+//		System.out.println(f);
+//		System.out.println(d);
+//		System.out.println(c);
+//		System.out.println(s);
+//	}
+//}
 
 // ===============
-// public class Java_01_Variable {
-// public static void main(String[] args) {
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
 //
-// String s = "Selenium";
-// int b = 10;
-// System.out.println("the string out put is " + s);
-// System.out.println("the int b out put is " + b);
+//		String s = "Selenium";
+//		int b = 10;
+//		System.out.println("the string out put is " + s);
+//		System.out.println("the int b out put is " + b);
 //
-// }
-// }
+//	}
+//}
 
 // ============================
 // A- 65, B - 66
-// a - 98 b 99....
+// a - 97 b 99....
 
-// public class Java_01_Variable {
-// public static void main(String[] args) {
-// char x = 'x';
-// char ch1 = 65;// 'A'
-// char ch2 = 97;// a
-// System.out.println("the integer out put of character is " + ch1);
-// System.out.println("the integer out put of character is " + ch2);
-// System.out.println("the char x out put is " + x);
+//public class Java_01_Variable {
+//	public static void main(String[] args) {
+//		char x = 'x';
+//		char ch1 = 65;// 'A'
+//		char ch2 = 99;// c
+//		System.out.println("the integer out put of character is " + ch1);
+//		System.out.println("the integer out put of character is " + ch2);
+//		System.out.println("the char x out put is " + x);
 //
-// }
-// }
+//	}
+//}
 
 // ===========================
-
-// class Java_01_Variable {
-// public static void main(String[] args) {
-// System.out.print("Enter an integer: ");
-// Scanner input = new Scanner(System.in);
-// // Scanner i = new Scanner(System.in);
-// int x = input.nextInt();
-// System.out.println("You entered " + x);
-// System.out.println("Double of entered value " + 2 * x);
-// System.out.println(100 * x);
+// scanner class for user input
+//class Java_01_Variable {
+//	public static void main(String[] args) {
+//		System.out.print("Enter an integer: ");
+//		Scanner i = new Scanner(System.in);
+//		// Scanner i = new Scanner(System.in);
+//		int abc = i.nextInt();
+//		System.out.println("You entered " + abc);
+//		System.out.println("Double of entered value " + 2 * abc);
+//		System.out.println(abc);
 //
-// }
-// }
+//	}
+//}
 
 // ===================
-// class Java_01_Variable {
-// public static void main(String[] args) {
-//
-// Scanner userinput = new Scanner(System.in);
-//
-// // // Getting float input
-// System.out.print("Enter float: ");
-// float myFloat = userinput.nextFloat();
-// System.out.println("Float entered = " + myFloat);
-//
-// // // // Getting double input
-// System.out.print("Enter double: ");
-// double myDouble = userinput.nextDouble();
-// System.out.println("Double entered = " + myDouble);
-// //
-// // Getting String input
-// System.out.print("Enter text: ");
-// String myString = userinput.next();
-// System.out.println("string entered = " + myString);
-//
-// }
-// }
+class Java_01_Variable {
+	public static void main(String[] args) {
+
+		Scanner userinput = new Scanner(System.in);
+
+		// // Getting float input
+		System.out.print("Enter float: ");
+		float myFloat = userinput.nextFloat();
+		System.out.println("Float entered = " + myFloat);
+
+		// // // Getting double input
+		System.out.print("Enter double: ");
+		double myDouble = userinput.nextDouble();
+		System.out.println("Double entered = " + myDouble);
+		//
+		// Getting String input
+		System.out.print("Enter text: ");
+		String myString = userinput.next();
+		System.out.println("string entered = " + myString);
+
+	}
+}
 // ===============
 
 //

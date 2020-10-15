@@ -7,8 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(TNG_13_ListenerTest.class)
-
+@Listeners(TNG_13_ListenerClass.class)
 public class TNG_13_ListenerTestCases {
 	WebDriver driver = new ChromeDriver();
 

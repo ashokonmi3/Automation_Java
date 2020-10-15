@@ -14,21 +14,18 @@ public class Login {
 	 */
 
 	WebDriver driver;
-
+	// By userName = By.name("username");
 	@FindBy(name = "username")
-	// driver.findElement(By.name("username"));
-	WebElement username;
+	WebElement username; // driver.findElement(By.name("username"));
+	// username.sendKeys(strUserName);
 
 	@FindBy(name = "password")
-
 	WebElement password;
 
 	@FindBy(linkText = "Google")
-
 	WebElement titleText;
 
 	@FindBy(xpath = "/html/body/form/input[3]")
-
 	WebElement login;
 
 	public Login(WebDriver driver) {
@@ -44,7 +41,6 @@ public class Login {
 	// Set user name in textbox
 
 	public void setUserName(String strUserName) {
-
 		username.sendKeys(strUserName);
 
 	}

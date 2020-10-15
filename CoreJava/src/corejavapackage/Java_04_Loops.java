@@ -29,7 +29,7 @@ package corejavapackage;
 // ======================================
 //public class Java_04_Loops {
 //	public static void main(String[] args) {
-//		for (int i = 10; i >= 1; i--) {
+//		for (int i = 10; i >= 1; --i) {
 //			System.out.println(i);
 //		}
 //	}
@@ -173,7 +173,6 @@ package corejavapackage;
 //
 //	}
 //}
-
 // =======================
 //public class Java_04_Loops {
 //	public static void main(String[] args) {
@@ -223,12 +222,11 @@ package corejavapackage;
 //}
 
 //// ==================================
-////
 //public class Java_04_Loops {
 //	public static void main(String[] args) {
 //		int n = 4;
 //		for (int i = 1; i <= n; i++) {
-//			for (int j = 1; j <= i; j++) {
+//			for (int j = 1; j <= n; j++) {
 //				System.out.print("*");
 //			}
 //			System.out.println();
@@ -256,6 +254,7 @@ package corejavapackage;
 // ================
 public class Java_04_Loops {
 	public static void main(String[] args) {
+
 		for (int ctr = 0; ctr < 5; ++ctr) {
 			System.out.println(ctr);
 		}

@@ -14,7 +14,6 @@ package collectiontutorial;
 // ascending order.
 // ======================
 // public class Colllection_06_Map {
-//
 // public static void main(String[] args) {
 // // TODO Auto-generated method stub
 // {
@@ -24,14 +23,13 @@ package collectiontutorial;
 // hm.put("c", new Integer(300));
 // hm.put("d", new Integer(400));
 //
-// // Returns Set view
-// Set<Map.Entry<String, Integer>> st = hm.entrySet();
-//
+// Set<Map.Entry<String, Integer>> st = hm.entrySet();// Returns Set view
+// //
 // for (Map.Entry<String, Integer> me : st) {
 // System.out.print(me.getKey() + ":");
 // System.out.println(me.getValue());
 // }
-
+//
 // }
 // }
 //
@@ -45,7 +43,7 @@ package collectiontutorial;
 // Map<String, String> mapA = new HashMap<>();
 // mapA.put("key1", "value1");
 // mapA.put("key2", "value2");
-// Set<Entry<String, String>> st = mapA.entrySet();
+// Set<Map.Entry<String, String>> st = mapA.entrySet();
 //
 // for (Map.Entry<String, String> me : st) {
 // System.out.print(me.getKey() + ":");
@@ -62,7 +60,7 @@ package collectiontutorial;
 // System.out.println("***********************");
 // Map<String, String> mapB = new HashMap<>();
 // mapB.putAll(mapA);
-// Set<Entry<String, String>> st1 = mapB.entrySet();
+// Set<Map.Entry<String, String>> st1 = mapB.entrySet();
 //
 // for (Map.Entry<String, String> s : st1) {
 // System.out.print(s.getKey() + ":");
@@ -82,6 +80,9 @@ package collectiontutorial;
 // map.put(6, "Javascript");
 // map.put(6, "cpp");
 // map.put(7, "cpp");
+// map.put("lang1", "cpp");
+// map.put("lang2", "Python");
+// map.put("lang3", "Java");
 //
 // // Traversing Map
 // Set set = map.entrySet();// Converting to Set so that we can traverse
@@ -95,17 +96,3 @@ package collectiontutorial;
 // }
 
 // ================
-// class Colllection_06_Map {
-// public static void main(String args[]) {
-// Map<Integer, String> map = new HashMap<Integer, String>();
-// map.put(100, "java");
-// map.put(101, "python");
-// map.put(102, "scala");
-// // Elements can traverse in any order
-// for (Map.Entry m : map.entrySet()) {
-// System.out.println(m.getKey() + " " + m.getValue());
-// }
-// }
-// }
-//
-// ========================

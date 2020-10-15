@@ -1,0 +1,106 @@
+{
+  "id": "5ecfc3da-7826-4cfb-adf0-ebbbd2880d17",
+  "version": "2.0",
+  "name": "SeleniumIDE",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "ba1f80d8-2b9a-492f-92fd-5b22e2ce4280",
+    "name": "Test1",
+    "commands": [{
+      "id": "58682010-f1a6-48a4-8cee-697c78caf0f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92ea4056-3dea-4dea-95a3-e08b80ff2e22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1358x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45b4f9a0-30c1-4820-af96-0772819e86d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item > span",
+      "targets": [
+        ["css=.nav-item > span", "css:finder"],
+        ["xpath=//nav[@id='navbar']/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e152b1-970e-419e-a0bc-4db3ac303879",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.subnav:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//ul[@id='aboutSubnav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f616e44-1043-410b-819a-9058974b061f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Downloads",
+      "targets": [
+        ["linkText=Downloads", "linkText"],
+        ["css=.nav-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Downloads')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/downloads')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cbe8eb3-da55-4c54-82ef-cd711a72b3a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Projects')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projects')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "118292e1-b064-4373-ac75-e90052538e1a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d1a73d4-4dcf-4007-aa4f-af5346eee46b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "39cc45f4-ce25-4448-bd79-ef83383a1ee0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ba1f80d8-2b9a-492f-92fd-5b22e2ce4280"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}

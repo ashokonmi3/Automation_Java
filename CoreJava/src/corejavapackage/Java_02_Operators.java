@@ -8,23 +8,23 @@ package corejavapackage;
 // 6) Bitwise operator
 // Assignment operator
 //
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 10;
-// System.out.println(a);// 20
-// a = a + 10;
-// System.out.println(a);// 20
-// a += 10;// a=a+10
-// System.out.println(a);// 20
-// a -= 10;// a=a-10
-// System.out.println(a);// 0
-// a *= 5;// a=a*5 multiplication
-// System.out.println(a);// 50
-// a /= 5;// a=a/5 multiplication
-// System.out.println(a);// 50
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 10;
+//		System.out.println(a);// 20
+//		a = a + 10;
+//		System.out.println(a);// 20
+//		a += 10;// a=a+10
+//		System.out.println(a);// 20
+//		a -= 10;// a=a-10
+//		System.out.println(a);// 0
+//		a *= 5;// a=a*5 multiplication
+//		System.out.println(a);// 50
+//		a /= 5;// a=a/5 multiplication
+//		System.out.println(a);// 50
 //
-// }
-// }
+//	}
+//}
 // =================================
 /*
  * Arithmetic Operators Arithmetic Operators return value based Result.
@@ -43,101 +43,101 @@ package corejavapackage;
  */
 // Plus operator +
 // ========================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 10, b = 5;
-// String c = "Selenium", d = " Testing";
-// System.out.println(a + b); // Addition of a, b
-// System.out.println(c + d); //
-// System.out.println(a - b);
-// System.out.println(a * b);
-// System.out.println(a / b);
-// System.out.println(a % b);
-// System.out.println(5 % 3);// modulus reminder of division
-// System.out.println(17 % 3);
-// System.out.println(3 % 17);// if dividend is smaller than divisor than
-// // dividend will be reminder
-// System.out.println(133 % 1000);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 10, b = 5;
+//		String c = "Selenium", d = " Testing";
+//		System.out.println(a + b); // Addition of a, b
+//		System.out.println(c + d); //
+//		System.out.println(a - b);
+//		System.out.println(a * b);
+//		System.out.println(a / b);
+//		System.out.println(a % b);
+//		System.out.println(5 % 3);// modulus reminder of division
+//		System.out.println(17 % 3);
+//		System.out.println(3 % 17);// if dividend is smaller than divisor than
+//		// dividend will be reminder
+//		System.out.println(133 % 1000);
+//	}
+//}
 
 // ===============================================
-// Increment --- ++
+// Increment --- ++ Decrement --
 // int a =10
 // ++a- preinclrement
 // a++ - post increment
 // ===========================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 22;
-// System.out.println(a);
-// System.out.println(++a);// increment first and print later
-// System.out.println(a);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 22;
+//		System.out.println(a);
+//		System.out.println(++a);// increment first and print later
+//		System.out.println(a);
+//	}
+//}
 
 // ===================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 22;
-// System.out.println("a++ " + a++);// printing first increment later
-// System.out.println(a);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 22;
+//		System.out.println("a++ " + a++);// printing first increment later
+//		System.out.println(a);
+//	}
+//}
 
 // ===================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int b = 0;
-// int a = 10;
-// System.out.println("before increment of a:" + a);
-// a = ++b;// increment first and assign later a=1
-// System.out.println("value of a: " + a);
-// System.out.println("value of b: " + b);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		System.out.println("before increment of a:" + a);
+//		a = ++b;// increment first and assign later a=1
+//		System.out.println("value of a: " + a);
+//		System.out.println("value of b: " + b);
+//	}
+//}
 // ========================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int b = 0;
-// int a = 10;
-// a = b++;// post increment-- assign first increment later
-// // a=0;
-// System.out.println(a);
-// System.out.println(b);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = b++;// post increment-- assign first increment later
+//		// a=0;
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
 // =======================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int b = 0;
-// int a = 10;
-// a = --b;// pre decrement--- decrement first assign after that
-// System.out.println(a);
-// System.out.println(b);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = --b;// pre decrement--- decrement first assign after that
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
 // ========================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int b = 0;
-// int a = 10;
-// a = b--;// post decrement -- assign first and decrement later
-// System.out.println(a);
-// System.out.println(b);
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int b = 0;
+//		int a = 10;
+//		a = b--;// post decrement -- assign first and decrement later
+//		System.out.println(a);
+//		System.out.println(b);
+//	}
+//}
 
 // ====================
-// class Java_02_Operators {
-// public static void main(String[] args) {
+//class Java_02_Operators {
+//	public static void main(String[] args) {
 //
-// int a = 10;
-// a = a++ + a + a-- - a-- + ++a;
-// // 10+11+11-10+10 left to right direction ---->
-// System.out.println(a);
-// }
-// }
+//		int a = 1;
+//		a = a++ + a + a-- - a-- + ++a;
+//		// 10+11+11-10+10 left to right direction ---->
+//		System.out.println(a);
+//	}
+//}
 
 // ======================
 //// ---------------------------------------------
@@ -155,18 +155,18 @@ package corejavapackage;
 //
 // 6) <=
 // ===================================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 20, b = 10, c = 20;
-// System.out.println("a > b is " + (a > b));// if a is greater than b- True
-// System.out.println("a >= c is " + (a >= c)); // if a is greater than or equal
-// // to c- true
-// System.out.println("a < b is " + (a < b));
-// System.out.println("a <= b is " + (a <= b));
-// System.out.println("a == b is " + (a == b));
-// System.out.println("a != b is " + (a != b));
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 20, b = 10, c = 20;
+//		System.out.println("a > b is " + (a > b));// if a is greater than b- True
+//		System.out.println("a >= c is " + (a >= c)); // if a is greater than or equal
+//		// to c- true
+//		System.out.println("a < b is " + (a < b));
+//		System.out.println("a <= b is " + (a <= b));
+//		System.out.println("a == b is " + (a == b));
+//		System.out.println("a != b is " + (a != b));
+//	}
+//}
 // ===============================================================
 // Logical operator
 // 1) Logical Not operator !
@@ -199,51 +199,51 @@ package corejavapackage;
 // false true true
 // false false false
 // -----------------------------------------
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// boolean a = true, b = false;
-// System.out.println((a && b));// and operator all should be true
-// System.out.println((a || b));// or operator one condition is true the result
-// // is true
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = false;
+//		System.out.println((a && b));// and operator all should be true
+//		System.out.println((a || b));// or operator one condition is true the result
+//		// is true
+//	}
+//}
 //// ======================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// boolean a = true, b = true;
-// System.out.println((a && b));
-// System.out.println((a || b));
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = true;
+//		System.out.println((a && b));
+//		System.out.println((a || b));
+//	}
+//}
 //// =======================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// boolean a = true, b = false, c = true;
-// System.out.println((a && b && c));
-// System.out.println((a || b || c));
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		boolean a = true, b = false, c = true;
+//		System.out.println((a && b && c));
+//		System.out.println((a || b || c));
+//	}
+//}
 ////// ==================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int a = 100, b = 500, c = 700;
-// System.out.println((a > b) && (a > c));// false&& false
-// System.out.println((a < b) || (a > c));// true||false
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		int a = 100, b = 500, c = 700;
+//		System.out.println((a > b) && (a > c));// false&& false
+//		System.out.println((a < b) || (a > c));// true||false
+//	}
+//}
 
 // =================================
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// char grade = 'A';
-// int a = 10;
-// System.out.println(grade == 'A');
-// System.out.println(a == 10);
-// System.out.println(a == 11);
-// System.out.println(grade == 'X');
-// System.out.println(grade == 65);// A 65, a 97
-// }
-// }
+//public class Java_02_Operators {
+//	public static void main(String[] args) {
+//		char grade = 'A';
+//		int a = 10;
+//		System.out.println(grade == 'A');
+//		System.out.println(a == 10);
+//		System.out.println(a == 11);
+//		System.out.println(grade == 'X');
+//		System.out.println(grade == 65);// A 65, a 97
+//	}
+//}
 
 // ====================================
 // Ternary operator
@@ -252,18 +252,18 @@ package corejavapackage;
 // condition? (block1) : block2
 
 // true
-
-// public class Java_02_Operators {
-// public static void main(String[] args) {
-// int num1, num2;
-// num1 = 1500;
-// num2 = (num1 == 500) ? 100 : 200;
-// System.out.println(num2);
-// System.out.println((num1 == 100) ? 100 : 200);
-// System.out.println((num1 > 500) ? 100 : 400);
 //
-// }
-// }
+public class Java_02_Operators {
+	public static void main(String[] args) {
+		int num1, num2;
+		num1 = 1500;
+		num2 = (num1 == 500) ? 100 : 200;
+		System.out.println(num2);
+		System.out.println((num1 == 100) ? 100 : 200);
+		System.out.println((num1 > 500) ? 100 : 400);
+
+	}
+}
 
 // ====================
 /// * Assignment*****

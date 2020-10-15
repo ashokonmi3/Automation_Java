@@ -14,9 +14,9 @@ import org.testng.annotations.Test;
 //	}
 //}
 // =========================
-
+//
 //public class TNG_05_InvocationCounter {
-//	@Test(invocationCount = 10, invocationTimeOut = 30000) // mililsecon
+//	@Test(invocationCount = 10, invocationTimeOut = 3000) // mililsecon
 //	public void f() {
 //		System.out.println("Java selenium");
 //
@@ -42,17 +42,6 @@ import org.testng.annotations.Test;
 //}
 // =======================
 //public class TNG_05_InvocationCounter {
-//	@Test(invocationCount = 7, threadPoolSize = 1)
-//	public void f() throws InterruptedException {
-//		System.out.println("Thread Name : " + Thread.currentThread().getName());
-//		Thread.sleep(3000);
-//		System.out.println("Test done");
-//
-//	}
-//}
-// ===========================
-//public class TNG_05_InvocationCounter {
-//	// 5 seconds max
 //	@Test(timeOut = 5000) // millisecond
 //	public void f() throws Exception {
 //		// sleep for 10 seconds
@@ -60,7 +49,6 @@ import org.testng.annotations.Test;
 //		System.out.println("will take more than 10 seconds");
 //	}
 //
-//	// 5 seconds max
 //	@Test(timeOut = 5000)
 //	public void g() throws Exception {
 //		System.out.println("will be completed withing 5 seconds");
@@ -79,6 +67,7 @@ import org.testng.annotations.Test;
  * TestNG provides a way to handle such exceptions, we need to set the property
  * of the expectedException to the required exception
  * 
+ * //
  */
 //public class TNG_05_InvocationCounter {
 //	@Test(expectedExceptions = ArithmeticException.class)

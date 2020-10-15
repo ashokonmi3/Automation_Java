@@ -64,7 +64,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1463500,
+  "duration": 1002800,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "OutlineTest.I_enter_Username_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 256047100,
+  "duration": 235523000,
   "error_message": "java.lang.NullPointerException\r\n\tat stepDefinition.OutlineTest.I_enter_Username_as_and_Password_as(OutlineTest.java:23)\r\n\tat ✽.When I enter Username as \"admin\" and Password as \"admin@123\"(Feature/Outline.feature:5)\r\n",
   "status": "failed"
 });
@@ -114,11 +114,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 88300,
+  "duration": 537600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 69600,
+  "duration": 296200,
   "status": "passed"
 });
 formatter.scenario({
@@ -157,7 +157,7 @@ formatter.match({
   "location": "OutlineTest.I_enter_Username_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 282500,
+  "duration": 418300,
   "error_message": "java.lang.NullPointerException\r\n\tat stepDefinition.OutlineTest.I_enter_Username_as_and_Password_as(OutlineTest.java:23)\r\n\tat ✽.When I enter Username as \"admin\" and Password as \"admin\"(Feature/Outline.feature:5)\r\n",
   "status": "failed"
 });
@@ -168,7 +168,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 84600,
+  "duration": 195000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -243,8 +243,8 @@ formatter.examples({
     {
       "cells": [
         "1",
-        "1",
-        "2"
+        "11",
+        "12"
       ],
       "line": 25,
       "id": "outline;addition-functionality-.;;6"
@@ -253,7 +253,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 87800,
+  "duration": 142800,
   "status": "passed"
 });
 formatter.scenario({
@@ -295,7 +295,7 @@ formatter.match({
   "location": "OutlineTest.i_user_adds_numbers_and(int,int)"
 });
 formatter.result({
-  "duration": 2056400,
+  "duration": 1243300,
   "status": "passed"
 });
 formatter.match({
@@ -308,15 +308,15 @@ formatter.match({
   "location": "OutlineTest.result_should_be_printed(int)"
 });
 formatter.result({
-  "duration": 3075300,
+  "duration": 1801700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 569500,
+  "duration": 209900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 182400,
+  "duration": 287800,
   "status": "passed"
 });
 formatter.scenario({
@@ -358,7 +358,7 @@ formatter.match({
   "location": "OutlineTest.i_user_adds_numbers_and(int,int)"
 });
 formatter.result({
-  "duration": 358400,
+  "duration": 529300,
   "status": "passed"
 });
 formatter.match({
@@ -371,16 +371,16 @@ formatter.match({
   "location": "OutlineTest.result_should_be_printed(int)"
 });
 formatter.result({
-  "duration": 1066900,
+  "duration": 517300,
   "error_message": "java.lang.AssertionError: expected:\u003c3\u003e but was:\u003c2\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinition.OutlineTest.result_should_be_printed(OutlineTest.java:54)\r\n\tat ✽.Then result 3 should be printed(Feature/Outline.feature:17)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 82600,
+  "duration": 56700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 76700,
+  "duration": 255500,
   "status": "passed"
 });
 formatter.scenario({
@@ -422,7 +422,7 @@ formatter.match({
   "location": "OutlineTest.i_user_adds_numbers_and(int,int)"
 });
 formatter.result({
-  "duration": 208900,
+  "duration": 178200,
   "status": "passed"
 });
 formatter.match({
@@ -435,15 +435,15 @@ formatter.match({
   "location": "OutlineTest.result_should_be_printed(int)"
 });
 formatter.result({
-  "duration": 263800,
+  "duration": 302000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 275300,
+  "duration": 63500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 62600,
+  "duration": 56500,
   "status": "passed"
 });
 formatter.scenario({
@@ -485,7 +485,7 @@ formatter.match({
   "location": "OutlineTest.i_user_adds_numbers_and(int,int)"
 });
 formatter.result({
-  "duration": 199000,
+  "duration": 324000,
   "status": "passed"
 });
 formatter.match({
@@ -498,15 +498,15 @@ formatter.match({
   "location": "OutlineTest.result_should_be_printed(int)"
 });
 formatter.result({
-  "duration": 314000,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43000,
+  "duration": 135500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 191100,
+  "duration": 66900,
   "status": "passed"
 });
 formatter.scenario({
@@ -519,7 +519,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 16,
-  "name": "I user adds numbers 1 and 1",
+  "name": "I user adds numbers 1 and 11",
   "matchedColumns": [
     0,
     1
@@ -528,7 +528,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "result 2 should be printed",
+  "name": "result 12 should be printed",
   "matchedColumns": [
     2
   ],
@@ -541,31 +541,31 @@ formatter.match({
       "offset": 20
     },
     {
-      "val": "1",
+      "val": "11",
       "offset": 26
     }
   ],
   "location": "OutlineTest.i_user_adds_numbers_and(int,int)"
 });
 formatter.result({
-  "duration": 413300,
+  "duration": 146300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2",
+      "val": "12",
       "offset": 7
     }
   ],
   "location": "OutlineTest.result_should_be_printed(int)"
 });
 formatter.result({
-  "duration": 160600,
+  "duration": 125200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 5871500,
+  "duration": 168200,
   "status": "passed"
 });
 });

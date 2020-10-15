@@ -1,68 +1,74 @@
 package corejavapackage;
 
-// class Student {
-// int rollno;// instance variable
-// String name;
-// String college;
+//class Student {
+//	int rollno;// instance variable
+//	String name;
+//	String college;
 //
-// Student(int r, String n, String s) {
-// rollno = r;
-// name = n;
-// college = s;
-// }
+//	Student(int r, String n, String s) {
+//		rollno = r;
+//		name = n;
+//		college = s;
+//	}
 //
-// // method to display the values
-// void display() {
-// System.out.println(rollno + " " + name + " " + college);
-// }
-// }
+//	// method to display the values
+//	void display() {
+//		System.out.println(rollno + " " + name + " " + college);
+//	}
+//}
 //
-// public class Java_14_staticDemoClass {// Test class to show the values of
-// // objects
-// public static void main(String args[]) {
-// Student s1 = new Student(111, "Karan", "IITB");
-// Student s2 = new Student(222, "Aryan", "IITB");
-// s1.display();
-// s2.display();
+//public class Java_14_staticDemoClass {// Test class to show the values of
+//	// objects
+//	public static void main(String args[]) {
+//		Student s1 = new Student(111, "Karan", "IITB");
+//		Student s2 = new Student(222, "Aryan", "IITB");
+//		s1.display();
+//		s2.display();
 //
-// }
-// }
+//	}
+//}
 
 // =================================
-// class Student {
-// int rollno;// instance variable
-// String name;
-// static String college = "IITB";// static variable
+//class Student {
+//	int rollno;// instance variable
+//	String name;
+//	static String college = "IITB";// static variable
 //
-// Student(int r, String n) {
-// rollno = r;
-// name = n;
+//	Student(int r, String n) {
+//		rollno = r;
+//		name = n;
 //
-// }
+//	}
 //
-// void display() {
-// System.out.println(rollno + " " + name + " " + college);
-// }
-// }
+//	void display() {
+//		System.out.println(rollno + " " + name + " " + college);
+//	}
+//}
 //
-// public class Java_14_staticDemoClass {// Test class to show the values of
-// public static void main(String args[]) {
-// Student s1 = new Student(111, "Karan");
-// Student s2 = new Student(222, "Aryan");
-// s1.display();
-// s2.display();
-// // we can change the college of all objects by the single line of code
-// Student.college = "NIT";
-// s1.display();
-// s2.display();
-// // System.out.println(s1.college);
-// Student s3 = new Student(111, "Anusha");
-// s3.college = "IIM";
-// s3.display();
-// s1.display();
+//public class Java_14_staticDemoClass {// Test class to show the values of
+//	public static void main(String args[]) {
+//		Student s1 = new Student(111, "Karan");
+//		Student s2 = new Student(222, "Aryan");
+//		System.out.println("Before changing the college name");
+//		s1.display();
+//		s2.display();
+//		// we can change the college of all objects by the single line of code
+//		Student.college = "NIT";
+//		System.out.println("After changing the college name");
 //
-// }
-// }
+//		s1.display();
+//		s2.display();
+//		// System.out.println(s1.college);
+//		Student s3 = new Student(111, "Anusha");
+//		s3.college = "IIM";
+//		System.out.println("Again changing the college name");
+//
+//		s3.display();
+//		s1.display();
+//		s2.display();
+//
+//	}
+//}
 
 // ===============================
 /// Java Program to demonstrate the use of an instance variable
@@ -71,7 +77,7 @@ package corejavapackage;
 //	int count = 0;// will get memory each time when the instance is created
 //
 //	Java_14_staticDemoClass() {
-//		count++;// incrementing value
+//		++count;// incrementing value
 //		System.out.println(count);
 //	}
 //

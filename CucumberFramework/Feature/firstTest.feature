@@ -8,7 +8,7 @@ Scenario: Successful Login with Valid Credentials
 	When User login a site
  
  @SMOKETEST 
-Scenario: Successful Login with inValid Credentials test1
+Scenario: Unsuccessful Login with inValid Credentials test1
 	Given User is on Home Page
 	When User login a site with invalid user name
 

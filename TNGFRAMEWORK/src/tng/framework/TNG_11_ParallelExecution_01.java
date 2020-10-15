@@ -21,7 +21,6 @@ public class TNG_11_ParallelExecution_01 {
 		for (int i = 20; i < 30; i++) {
 			System.out.println(i);
 			System.out.println("Test Case 2 from Class 1");
-
 			Thread.sleep(2000);
 		}
 	}
@@ -33,7 +32,6 @@ public class TNG_11_ParallelExecution_01 {
 		for (int i = 30; i < 40; i++) {
 			System.out.println(i);
 			System.out.println("Test Case 3 from Class 1");
-
 			Thread.sleep(2000);
 		}
 	}

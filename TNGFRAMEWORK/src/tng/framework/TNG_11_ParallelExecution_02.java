@@ -36,7 +36,7 @@ public class TNG_11_ParallelExecution_02 {
 		System.out.println("Test Case 6 is Successful - Thread id is: " + id);
 		for (int i = 1000; i < 1010; i++) {
 			System.out.println(i);
-			System.out.println("Test Case 6 from Class 3");
+			System.out.println("Test Case 6 from Class 2");
 
 			Thread.sleep(1000);
 		}
