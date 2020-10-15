@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;selenium.SEL_0004_HandleLink&apos; to &apos;SEL_04_HandleLink&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;selenium.SEL_0004_HandleLink&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium.SEL_04_HandleLink&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SEL_0004_HandleLink&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;selenium{SEL_0004_HandleLink.java[SEL_0004_HandleLink" matchStrategy="1" name="SEL_04_HandleLink" qualified="false" references="true" similarDeclarations="false" stamp="1587998929614" textual="false" version="1.0"/>
-</session>
