@@ -1,0 +1,11 @@
+30/07/2020 21:30:32 devpinoyLogger ----------starting the test case ---- 
+30/07/2020 21:30:36 devpinoyLogger ----------driver object is  created ---- 
+30/07/2020 21:30:36 devpinoyLogger ----------starting the test case ---- 
+30/07/2020 21:30:40 devpinoyLogger the current url is 
+30/07/2020 21:30:40 devpinoyLogger This is an info message
+30/07/2020 21:30:40 devpinoyLogger This is an warn message
+30/07/2020 21:30:40 devpinoyLogger This is an error message
+30/07/2020 21:30:40 devpinoyLogger This is an fatal message
+30/07/2020 21:30:45 devpinoyLogger Alert text is Invalid Password
+30/07/2020 21:30:45 devpinoyLogger Expected Alert text is This is Alert
+30/07/2020 21:30:45 devpinoyLogger Handling error message. Test case passed.

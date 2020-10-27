@@ -1,0 +1,9 @@
+----------starting the test case ---- 
+----------driver object is created ---- 
+----------starting the test case ---- 
+This is an info message
+This is an warn message
+This is an error message
+This is an fatal message
+Alert text is Invalid Password
+Handling error message. Test case passed.

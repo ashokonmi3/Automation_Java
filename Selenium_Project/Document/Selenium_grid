@@ -1,0 +1,11 @@
+Server
+java -jar selenium-server-standalone-3.141.59.jar -role hub -port 5000
+
+url to register the client--
+client can use to register itself to server
+
+Client side
+java -Dwebdriver.gecko.driver="C:\My\Study\webdriver_exe\geckodriver.exe" -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://localhost:5000/grid/register -port 5566
+
+
+Run the code on grid pass the node address

@@ -1,0 +1,96 @@
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] DEBUG devpinoyLogger  - Handling error message. Test case passed.
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] DEBUG devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ----  
+[main] INFO  devpinoyLogger  - ----------driver objec is created ----  
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] INFO  devpinoyLogger  - ----------starting the test case ----  
+[main] INFO  devpinoyLogger  - ----------driver objec is created ----  
+[main] DEBUG devpinoyLogger  - ----------starting the test case ----  
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] INFO  devpinoyLogger  - ----------driver objec is created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] INFO  devpinoyLogger  - ----------driver object is created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] INFO  devpinoyLogger  - ----------driver object is created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] INFO  devpinoyLogger  - ----------driver object is created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] ERROR devpinoyLogger  - ----------driver object is created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] DEBUG devpinoyLogger  - Expected Alert text is This is Alert
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] DEBUG devpinoyLogger  - Expected Alert text is This is Alert
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
+[main] INFO  devpinoyLogger  - ----------starting the test case ---- 
+[main] INFO  devpinoyLogger  - ----------driver object is  created ---- 
+[main] DEBUG devpinoyLogger  - ----------starting the test case ---- 
+[main] TRACE devpinoyLogger  - the current url is 
+[main] INFO  devpinoyLogger  - This is an info message
+[main] WARN  devpinoyLogger  - This is an warn message
+[main] ERROR devpinoyLogger  - This is an error message
+[main] FATAL devpinoyLogger  - This is an fatal message
+[main] DEBUG devpinoyLogger  - Alert text is Invalid Password
+[main] DEBUG devpinoyLogger  - Expected Alert text is This is Alert
+[main] INFO  devpinoyLogger  - Handling error message. Test case passed.
