@@ -134,7 +134,7 @@ package corejavapackage;
 //
 //		int a = 1;
 //		a = a++ + a + a-- - a-- + ++a;
-//		// 10+11+11-10+10 left to right direction ---->
+//		// 1 +2 +2 -1 +1 left to right direction ---->
 //		System.out.println(a);
 //	}
 //}
