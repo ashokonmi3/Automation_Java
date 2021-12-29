@@ -82,7 +82,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //
 //	public static void main(String[] args) throws InterruptedException {
 //		WebDriver driver = new ChromeDriver();
-//		driver.get("file:///D:/Study/javaselenium/webpages/locator1.html");
+//		driver.get("https://ashokonmi3.github.io/Selenium.Pages/css_xpath.html");
 //		Thread.sleep(2000);
 //		driver.findElement(By.xpath("//*[@id='pancakes']/a")).click();
 //		Thread.sleep(3000);
@@ -95,7 +95,7 @@ public class SEL_02_elementLocators {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.get("file:///D:/Study/javaselenium/webpages/FindElements.html");
+		driver.get("https://ashokonmi3.github.io/Selenium.Pages/css_xpath.html");
 		Thread.sleep(2000);
 		List<WebElement> elems = driver.findElements(By.id("firstButton"));//
 		// javautil
