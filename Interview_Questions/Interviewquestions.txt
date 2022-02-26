@@ -76,6 +76,13 @@ Java Programs
 1. String reverse
 2. String Palindrome
 3. String Anagram
+Input : s1 = "listen"
+        s2 = "silent"
+Output : The strings are anagrams.
+Input : s1 = "dad"
+        s2 = "bad"
+Output : The strings aren't anagrams.
+
 4. Find occurrences of characters in a string
 5. Find the count of Capital and Small letters in a string
 6. Remove duplicate characters from string
@@ -250,13 +257,13 @@ First round:
 
 -          How can overriding be prevented without using final
 
--          Which one is determined at run time ñ Overloading vs Overriding
+-          Which one is determined at run time ‚Äì Overloading vs Overriding
 
 -          Question on exceptions
 
--          Static fields ñ Why do we need that?
+-          Static fields ‚Äì Why do we need that?
 
--          Which version of Java are you using? Whatís the latest version?
+-          Which version of Java are you using? What‚Äôs the latest version?
 
 -          Difference between interface and abstract classes
 
@@ -264,11 +271,11 @@ First round:
 
 -          Why did you use Jenkins? What all have you done on Jenkins?
 
--          Whatís a CI/CD pipeline?
+-          What‚Äôs a CI/CD pipeline?
 
 -          Question on parallel execution and VMs
 
--          In terms of cloud, whatís the difference between scalability and extensibility?
+-          In terms of cloud, what‚Äôs the difference between scalability and extensibility?
 
 -          If you want to scale on sauce labs, what would you do?
 
@@ -278,9 +285,9 @@ First round:
 
 -          What are the different request methods?
 
--          Whatís the difference between POST and PUT?
+-          What‚Äôs the difference between POST and PUT?
 
--          Whatís a Data Provider in TestNG?
+-          What‚Äôs a Data Provider in TestNG?
 
 -          Apart from using the usual way of providing the data in a Data Provider, is there any other way to provide the data (iTestContext)
 
@@ -290,7 +297,7 @@ First round:
 
 -          What would be an ideal system? What you need on your system to start with development?
 
--          Whatís an ideal environment for you ñ Team related?
+-          What‚Äôs an ideal environment for you ‚Äì Team related?
 
 -          What was your role as a manager in your previous projects?
 
@@ -300,9 +307,9 @@ Second Round:
 
  
 
--          Explain only those stuff from your profile which is technical ñ Tools & Technologies
+-          Explain only those stuff from your profile which is technical ‚Äì Tools & Technologies
 
--          Coding problem (Find the first non-repeating letter in a String ñ There were 3 test data)
+-          Coding problem (Find the first non-repeating letter in a String ‚Äì There were 3 test data)
 
 -          Explain the logic before solving the problem
 
@@ -312,9 +319,9 @@ Second Round:
 
 -          Write code for couple of classes using Page Object Model  for a login page
 
--          Whatís the advantage of identifying an element using an annotation
+-          What‚Äôs the advantage of identifying an element using an annotation
 
--          Whatís a page factory?
+-          What‚Äôs a page factory?
 
 -           An additional field is added to Login page which opens a dropdown when you hover over this new field. What would you do?
 
@@ -339,91 +346,91 @@ In TestNG, how would you set to run in parallel and threads?
 
  
 
-ï             Walk me thru your latest project and talk about value adds
+‚Ä¢             Walk me thru your latest project and talk about value adds
 
-ï             why are currently looking for a job
+‚Ä¢             why are currently looking for a job
 
-ï             how do u identify elements on a web page
+‚Ä¢             how do u identify elements on a web page
 
-ï             what are the various assertion to validate functionalities
+‚Ä¢             what are the various assertion to validate functionalities
 
-ï             can you give me some methods ? assertion method, etc
+‚Ä¢             can you give me some methods ? assertion method, etc
 
-ï             what are your strengths ?
+‚Ä¢             what are your strengths ?
 
-ï             which automaton tools have you worked on. have you used selenium?
+‚Ä¢             which automaton tools have you worked on. have you used selenium?
 
-ï             describe locators in selenium
+‚Ä¢             describe locators in selenium
 
-ï             accessibility ID, xpath. which one is the most reliable one. why
+‚Ä¢             accessibility ID, xpath. which one is the most reliable one. why
 
-ï             in xpath, have you used single slash and double slash? what does it mean? relative and absolute?
+‚Ä¢             in xpath, have you used single slash and double slash? what does it mean? relative and absolute?
 
-ï             when do you use sleep tanks and why?
+‚Ä¢             when do you use sleep tanks and why?
 
-ï             what is a static key word in java
+‚Ä¢             what is a static key word in java
 
-ï             what does protected key word does?
+‚Ä¢             what does protected key word does?
 
-ï             Job involves writing java code to automate test cases , using java code, import libraries.
+‚Ä¢             Job involves writing java code to automate test cases , using java code, import libraries.
 
-ï             what is your contributions in your latest projects
+‚Ä¢             what is your contributions in your latest projects
 
-ï             how did you use postman?
+‚Ä¢             how did you use postman?
 
-ï             what are some of the web methods that you have used
+‚Ä¢             what are some of the web methods that you have used
 
-ï             what is sonar cube? what does it do?
+‚Ä¢             what is sonar cube? what does it do?
 
-ï             have you seen any quality hub?
+‚Ä¢             have you seen any quality hub?
 
-ï             what is your experience with PCF?
+‚Ä¢             what is your experience with PCF?
 
-ï             walk me your contributions in building CI CD pipeline
+‚Ä¢             walk me your contributions in building CI CD pipeline
 
-ï             what is a static key word in java or c#?
+‚Ä¢             what is a static key word in java or c#?
 
-ï             what is a protected key word?
+‚Ä¢             what is a protected key word?
 
-ï             List down key words
+‚Ä¢             List down key words
 
-ï             if you are using data base connections, what is a final key word?
+‚Ä¢             if you are using data base connections, what is a final key word?
 
-ï             what is difference between final and static key word?
+‚Ä¢             what is difference between final and static key word?
 
-ï             what are various assertions that you have used in TestNg, etc
+‚Ä¢             what are various assertions that you have used in TestNg, etc
 
-ï             what is your understanding of a test automation framework?
+‚Ä¢             what is your understanding of a test automation framework?
 
-ï             did you work with appium and selenium?
+‚Ä¢             did you work with appium and selenium?
 
-ï             what are different locators in selenium?
+‚Ä¢             what are different locators in selenium?
 
-ï             what is single slash and double slash?
+‚Ä¢             what is single slash and double slash?
 
-ï             what is implicit weight and explicit weight?
+‚Ä¢             what is implicit weight and explicit weight?
 
-ï             tell me a recent project. where you found an important ./ critical defect ?
+‚Ä¢             tell me a recent project. where you found an important ./ critical defect ?
 
-ï             what are difference between severity and priority?
+‚Ä¢             what are difference between severity and priority?
 
-ï             what are various types of testing?
+‚Ä¢             what are various types of testing?
 
-ï             Letís say a function is written by some developer. what are the various test data that you would submit and expected results. walk me through your testing process to sign off whether the test case is working or not?
+‚Ä¢             Let‚Äôs say a function is written by some developer. what are the various test data that you would submit and expected results. walk me through your testing process to sign off whether the test case is working or not?
 
-ï             have you tested APIs? how have you done that?
+‚Ä¢             have you tested APIs? how have you done that?
 
-ï             what is a static key word in java
+‚Ä¢             what is a static key word in java
 
-ï             what are the various identifiers in selenium
+‚Ä¢             what are the various identifiers in selenium
 
-ï             which is the best locator that you would use?
+‚Ä¢             which is the best locator that you would use?
 
-ï             what is gherkin language. why is it used?
+‚Ä¢             what is gherkin language. why is it used?
 
-ï             what is a finale key word in java?
+‚Ä¢             what is a finale key word in java?
 
-ï             How have you as a tester , been responsible for product quality, code quality.
+‚Ä¢             How have you as a tester , been responsible for product quality, code quality.
 
  
 
@@ -435,23 +442,23 @@ Coding exercises:
 
  
 
-ï             write code to invoke launch google.com and send text "what is  automation" in search box. write a ui automation code that send keys to web browser "what is automation"
+‚Ä¢             write code to invoke launch google.com and send text "what is  automation" in search box. write a ui automation code that send keys to web browser "what is automation"
 
-ï             write a selenium code to gather the web driver.
+‚Ä¢             write a selenium code to gather the web driver.
 
-ï             Write code that will take a string as input and return whether it is a Palindrome or not
+‚Ä¢             Write code that will take a string as input and return whether it is a Palindrome or not
 
-ï             Write code to identify a text box on the UI and check if the text in the box is alphanumeric.
+‚Ä¢             Write code to identify a text box on the UI and check if the text in the box is alphanumeric.
 
-ï             give you a program /  algorithm . how do you understand the problem. your function needs to take a string as an input which are numbers. and abc12ef35 . return total of all integers what are test data you would use to test this?
+‚Ä¢             give you a program /  algorithm . how do you understand the problem. your function needs to take a string as an input which are numbers. and abc12ef35 . return total of all integers what are test data you would use to test this?
 
-ï             int arr1 = [1,4,6,8] and int arr2 = [3,5,6,7] are two arrays, both are sorted already. Write a function that needs to take these arrays and return a sorted array of 2 input arrays. i.e. return one array
+‚Ä¢             int arr1 = [1,4,6,8] and int arr2 = [3,5,6,7] are two arrays, both are sorted already. Write a function that needs to take these arrays and return a sorted array of 2 input arrays. i.e. return one array
 
  
 
 
 
-1. Java ñ with demonstrated ability to read, write and modify core Java projects / start from scratch
+1. Java ‚Äì with demonstrated ability to read, write and modify core Java projects / start from scratch
 2. In-depth knowledge on working with test automation frameworks , creating / modifying the automation frameworks
 3. Selenium for test automation, extensive exposure to selenium architecture and automation components
 4. utilizing the testNG, BDD framework (JBehave/Cucumber)/ Key word Driven/Data Driven for test automation
@@ -476,32 +483,32 @@ if Keyword/data driven: How you read the data and key? How you build your code a
 14. Have you used Jenkins or any configuration tools? Some practical questions around that?
 15. How you are managing logging in your framework?
 16. What kind of exception handling used in your framework with examples? At what layer of your framework are they implemented? Some questions around exception handling.
-17. Letís say a function is written by some developer. what are the various test data that you would submit and expected results. walk me through your testing process to sign off whether the test case is working or not?
+17. Let‚Äôs say a function is written by some developer. what are the various test data that you would submit and expected results. walk me through your testing process to sign off whether the test case is working or not?
 
 
 Coding exercises:
 
-1ï write code to invoke launch google.com and send text "what is  automation" in search box. write a ui automation code that send keys to web browser "what is automation"
+1‚Ä¢ write code to invoke launch google.com and send text "what is  automation" in search box. write a ui automation code that send keys to web browser "what is automation"
 
-2ï write a selenium code to gather the web driver.
+2‚Ä¢ write a selenium code to gather the web driver.
 
-3ï Write code that will take a string as input and return whether it is a Palindrome or not
+3‚Ä¢ Write code that will take a string as input and return whether it is a Palindrome or not
 
-4ï Write code to identify a text box on the UI and check if the text in the box is alphanumeric.
+4‚Ä¢ Write code to identify a text box on the UI and check if the text in the box is alphanumeric.
 
-5ï give you a program /  algorithm . how do you understand the problem. your function needs to take a string as an input which are numbers. and abc12ef35 . return total of all integers what are test data you would use to test this?
+5‚Ä¢ give you a program /  algorithm . how do you understand the problem. your function needs to take a string as an input which are numbers. and abc12ef35 . return total of all integers what are test data you would use to test this?
 
-6ï int arr1 = [1,4,6,8] and int arr2 = [3,5,6,7] are two arrays, both are sorted already. Write a function that needs to take these arrays and return a sorted array of 2 input arrays. i.e. return one array
+6‚Ä¢ int arr1 = [1,4,6,8] and int arr2 = [3,5,6,7] are two arrays, both are sorted already. Write a function that needs to take these arrays and return a sorted array of 2 input arrays. i.e. return one array
 
-7ï Write a Selenium program to book flight between two destination on any sample flight application available over the internet
+7‚Ä¢ Write a Selenium program to book flight between two destination on any sample flight application available over the internet
 
-8ï Wrtie program to catch different exceptions
+8‚Ä¢ Wrtie program to catch different exceptions
 
-9ï Write a Java progrm to merge two arrays
+9‚Ä¢ Write a Java progrm to merge two arrays
 
-10ï Write a Java program to print Boom if the entered input is multiple of 3 and Bang if the entered input number is multiple of 5. Print BangBoom (not BoomBang) if entered number is multiple of both 3 & 5. Ensure no new line added in the output. If the entered number is not a multiple of 3 and 5, then print the output as ìEntered number is not a multiple of 3 & 5î
+10‚Ä¢ Write a Java program to print Boom if the entered input is multiple of 3 and Bang if the entered input number is multiple of 5. Print BangBoom (not BoomBang) if entered number is multiple of both 3 & 5. Ensure no new line added in the output. If the entered number is not a multiple of 3 and 5, then print the output as ‚ÄúEntered number is not a multiple of 3 & 5‚Äù
 
-11.If the candidate completes this program ask questions around how do you improve the performance of the code, Review of Java Code, Best practice followed in the code etcÖ
+11.If the candidate completes this program ask questions around how do you improve the performance of the code, Review of Java Code, Best practice followed in the code etc‚Ä¶
 
 12. A bouquet consists of different types of flowers, Roses, Jasmines, Lilys etc. 
 Consider a rose costs 1$, jasmine costs 2$, Lily costs 3$. The cost of the bouquet is the sum of the cost of the flowers in it.  
