@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="30" time="163.750292">
+    <testcase classname="Login feature" name="Home page default login" time="0.465616">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When validate the browser...................................................passed
+And Browser is triggered....................................................passed
+Then check if browser is started............................................passed
+When User login into application with username and password.................passed
+Then Home page is populated.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login" time="3.54463">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login" time="2.360081">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "john" and password "4321"............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Demo for regular expression" time="41.062559">
+        <failure message="org.openqa.selenium.NoSuchSessionException: invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-N6P94DG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\91973\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b113f693925bddce5e997e456f59bb0&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)&#13;&#10;&#9;at stepDefinations.Step_def_09_selenium.closeBrowser(Step_def_09_selenium.java:65)&#13;&#10;&#9;at ✽.And User closes the browser(02_Regex.feature:21)&#13;&#10;"><![CDATA[Given User Ashok launching website www.yahoo.com............................passed
+And User closes the browser.................................................passed
+Given User Umesh launching website www.google.com...........................passed
+And User closes the browser.................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N6P94DG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\91973\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b113f693925bddce5e997e456f59bb0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefinations.Step_def_09_selenium.closeBrowser(Step_def_09_selenium.java:65)
+	at ✽.And User closes the browser(02_Regex.feature:21)
+]]></failure>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login" time="3.886829">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login" time="2.394622">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user1 and password pass1.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 2" time="2.339408">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user2 and password pass2.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 3" time="2.792409">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user3 and password pass3.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default login 4" time="2.452279">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user4 and password pass4.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Addition functionality ." time="2.732828">
+        <system-out><![CDATA[When I user adds numbers 2 and 3............................................passed
+Then result 5 should be printed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Addition functionality . 2" time="3.218503">
+        <failure message="java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;2&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:743)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:555)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:542)&#13;&#10;&#9;at stepDefinations.Step_def_03_data_driven.result_should_be_printed(Step_def_03_data_driven.java:85)&#13;&#10;&#9;at ✽.Then result 3 should be printed(03_DataDriven.feature:43)&#13;&#10;"><![CDATA[When I user adds numbers 1 and 1............................................passed
+Then result 3 should be printed.............................................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<3> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.Step_def_03_data_driven.result_should_be_printed(Step_def_03_data_driven.java:85)
+	at ✽.Then result 3 should be printed(03_DataDriven.feature:43)
+]]></failure>
+    </testcase>
+    <testcase classname="Application Login" name="Addition functionality . 3" time="5.03576">
+        <system-out><![CDATA[When I user adds numbers 5 and 6............................................passed
+Then result 11 should be printed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Addition functionality . 4" time="4.688974">
+        <system-out><![CDATA[When I user adds numbers 1 and 1............................................passed
+Then result 2 should be printed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Addition functionality . 5" time="4.719391">
+        <system-out><![CDATA[When I user adds numbers 1 and 11...........................................passed
+Then result 12 should be printed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="3.409341">
+        <system-out><![CDATA[Given validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page login" time="2.942152">
+        <system-out><![CDATA[Given validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login for tagging @MobileTest" time="2.802625">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login first test for tagging @WebTest" time="2.936542">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Contact page default login for tagging @WebTest" time="4.89039">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Contact page default login for both tag @WebTest @MobileTest" time="10.45276">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Hooks" name="This scenario is to test hooks functionality" time="0.000385">
+        <system-out><![CDATA[Given this is the first step for hook.......................................passed
+When this is the second step for hook.......................................passed
+Then this is the fourth step for hook.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Hooks" name="This scenario is to test hooks functionality from Hooks.java file" time="0.000478">
+        <system-out><![CDATA[Given this is the first step for hook.......................................passed
+When this is the second step for hook.......................................passed
+Then this is the fourth step for hook.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="3.370311">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="2.873551">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="2.760843">
+        <system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Home page default login" time="2.192153">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+And Cards are displayed.....................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Login Action" name="Successful Login with Valid Credentials" time="22.613335">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User login a site......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Action" name="Unsuccessful Login with inValid Credentials test1" time="20.811179">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User login a site with invalid user name...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Priority for test cases" name="First scenario to test Order Hooks functionality" time="0.000151">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given this is the first step................................................undefined
+When this is the second step................................................skipped
+Then this is the third step.................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Priority for test cases" name="Second scenario to test Order Hooks functionality" time="0.000207">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given this is the first step................................................undefined
+When this is the second step................................................skipped
+Then this is the third step.................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
